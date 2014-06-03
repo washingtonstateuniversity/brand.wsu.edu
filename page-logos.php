@@ -81,7 +81,7 @@ button.detail header:after {
 	width: 792px;
 	}
 .size-lt-large .donot {
-	background: url('/wp-content/themes/brand/images/elements/x-not-75.png') center top repeat-y;
+	background: url('<?php echo get_stylesheet_directory_uri() . '/images/elements/x-not-75.png'; ?>') center top repeat-y;
 	background-size: 550px auto;
 	}
 
@@ -101,9 +101,9 @@ button.detail header:after {
 	
 	<div class="column one row halves gutter wide">
 	
-		<center style="margin-top: 100px;"><img src="/wp-content/themes/brand/images/pages/logos/wsu-signature-default.svg" class="wsu-signature-default"></center>
-		<center><img src="/wp-content/themes/brand/images/pages/logos/wsu-signature-horizontal.svg" class="wsu-signature-horizontal"></center>
-		<center><img src="/wp-content/themes/brand/images/pages/logos/wsu-signature-vertical.svg" class="wsu-signature-vertical"></center>
+		<center style="margin-top: 100px;"><img src="<?php echo get_stylesheet_directory_uri() . '/images/pages/logos/wsu-signature-default.svg'; ?>" class="wsu-signature-default"></center>
+		<center><img src="<?php echo get_stylesheet_directory_uri() . '/images/pages/logos/wsu-signature-horizontal.svg'; ?>" class="wsu-signature-horizontal"></center>
+		<center><img src="<?php echo get_stylesheet_directory_uri() . '/images/pages/logos/wsu-signature-vertical.svg'; ?>" class="wsu-signature-vertical"></center>
 		
 		<button class="detail" alt="university signature details">
 			<header></header>
@@ -146,7 +146,7 @@ button.detail header:after {
 				?>
 			</div>
 			<div class="column six">
-				<img src="/wp-content/themes/brand/images/pages/logos/figures/clearspace.png" class="max-width">
+				<img src="<?php echo get_stylesheet_directory_uri() . '/images/pages/logos/figures/clearspace.png'; ?>" class="max-width">
 			</div>
 			<hr>
 			<div id="clear-space" class="column seven">
@@ -169,31 +169,31 @@ button.detail header:after {
 				<span class="x-overunder"></span>
 				
 				<div class="column three third center absolutely padless">
-					<img src="/wp-content/themes/brand/images/pages/logos/examples/signature-altered.png">
+					<img src="<?php echo get_stylesheet_directory_uri() . '/images/pages/logos/examples/signature-altered.png'; ?>">
 				</div>
 				<div class="column four third center absolutely padless">
-					<img src="/wp-content/themes/brand/images/pages/logos/examples/signature-beveled.png">
+					<img src="<?php echo get_stylesheet_directory_uri() . '/images/pages/logos/examples/signature-beveled.png'; ?>">
 				</div>
 				<div class="column five third center absolutely padless">
-					<img src="/wp-content/themes/brand/images/pages/logos/examples/signature-contained.png">
+					<img src="<?php echo get_stylesheet_directory_uri() . '/images/pages/logos/examples/signature-contained.png'; ?>">
 				</div>
 				<div class="column six third center absolutely padless">
-					<img src="/wp-content/themes/brand/images/pages/logos/examples/signature-distorted.png">
+					<img src="<?php echo get_stylesheet_directory_uri() . '/images/pages/logos/examples/signature-distorted.png'; ?>">
 				</div>
 				<div class="column seven third center absolutely padless">
-					<img src="/wp-content/themes/brand/images/pages/logos/examples/signature-prefixed.png">
+					<img src="<?php echo get_stylesheet_directory_uri() . '/images/pages/logos/examples/signature-prefixed.png'; ?>">
 				</div>
 				<div class="column eight third center absolutely padless">
-					<img src="/wp-content/themes/brand/images/pages/logos/examples/signature-ruled.png">
+					<img src="<?php echo get_stylesheet_directory_uri() . '/images/pages/logos/examples/signature-ruled.png'; ?>">
 				</div>
 				<div class="column nine third center absolutely padless">
-					<img src="/wp-content/themes/brand/images/pages/logos/examples/signature-sans.png">
+					<img src="<?php echo get_stylesheet_directory_uri() . '/images/pages/logos/examples/signature-sans.png'; ?>">
 				</div>
 				<div class="column ten third center absolutely padless">
-					<img src="/wp-content/themes/brand/images/pages/logos/examples/signature-tilted.png">
+					<img src="<?php echo get_stylesheet_directory_uri() . '/images/pages/logos/examples/signature-tilted.png'; ?>">
 				</div>
 				<div class="column eleven third center absolutely padless">
-					<img src="/wp-content/themes/brand/images/pages/logos/examples/signature-busied.png">
+					<img src="<?php echo get_stylesheet_directory_uri() . '/images/pages/logos/examples/signature-busied.png'; ?>">
 				</div>
 							
 			</section>
@@ -220,21 +220,21 @@ button.detail header:after {
 
 	<div class="row halves primary-sigs">
 	
-		<center class="column one"><img src="/wp-content/themes/brand/images/pages/logos/campus/wsu-spokane-signature-primary.svg"></center>
-		<center class="column two"><img src="/wp-content/themes/brand/images/pages/logos/campus/wsu-globalcampus-signature-primary.svg"></center>
+		<center class="column one"><img src="<?php echo get_stylesheet_directory_uri() . '/images/pages/logos/campus/wsu-spokane-signature-primary.svg"></center>
+		<center class="column two"><img src="<?php echo get_stylesheet_directory_uri() . '/images/pages/logos/campus/wsu-globalcampus-signature-primary.svg"></center>
 	
 	</div>
 	
 	<div class="row single horizontal-sigs">
 	
-		<center class="column two"><img src="/wp-content/themes/brand/images/pages/logos/campus/wsu-extension-signature-horizontal.svg"></center>
+		<center class="column two"><img src="<?php echo get_stylesheet_directory_uri() . '/images/pages/logos/campus/wsu-extension-signature-horizontal.svg'; ?>"></center>
 	
 	</div>
 	
 	<div class="row halves vertical-sigs">
 	
-		<center class="column one"><img src="/wp-content/themes/brand/images/pages/logos/campus/wsu-tricities-signature-vertical.svg"></center>
-		<center class="column one"><img src="/wp-content/themes/brand/images/pages/logos/campus/wsu-vancouver-signature-vertical.svg"></center>
+		<center class="column one"><img src="<?php echo get_stylesheet_directory_uri() . '/images/pages/logos/campus/wsu-tricities-signature-vertical.svg'; ?>"></center>
+		<center class="column one"><img src="<?php echo get_stylesheet_directory_uri() . '/images/pages/logos/campus/wsu-vancouver-signature-vertical.svg'; ?>"></center>
 	
 	</div>
 	
@@ -283,35 +283,35 @@ button.detail header:after {
 	<div class="column one row halves gutter wide unit-sigs">
 	
 		<div class="column one">
-			<img src="/wp-content/themes/brand/images/pages/logos/unit/wsu-college-cahnrs-unit.svg" class="max-width centered absolutely">
+			<img src="<?php echo get_stylesheet_directory_uri() . '/images/pages/logos/unit/wsu-college-cahnrs-unit.svg'; ?>" class="max-width centered absolutely">
 		</div>
 		
 		<div class="column two">
-			<img src="/wp-content/themes/brand/images/pages/logos/unit/wsu-college-education.svg" class="max-width centered absolutely">
+			<img src="<?php echo get_stylesheet_directory_uri() . '/images/pages/logos/unit/wsu-college-education.svg'; ?>" class="max-width centered absolutely">
 		</div>
 				
 		<div class="column three">
-			<img src="/wp-content/themes/brand/images/pages/logos/unit/wsu-office-chancellor.svg" class="max-width centered absolutely">
+			<img src="<?php echo get_stylesheet_directory_uri() . '/images/pages/logos/unit/wsu-office-chancellor.svg'; ?>" class="max-width centered absolutely">
 		</div>
 		
 		<div class="column four">
-			<img src="/wp-content/themes/brand/images/pages/logos/unit/wsu-department-ccgrs.svg" class="max-width centered absolutely">
+			<img src="<?php echo get_stylesheet_directory_uri() . '/images/pages/logos/unit/wsu-department-ccgrs.svg'; ?>" class="max-width centered absolutely">
 		</div>
 		
 		<div class="column five">
-			<img src="/wp-content/themes/brand/images/pages/logos/unit/wsu-office-studentdevelopment.svg" class="max-width centered absolutely">
+			<img src="<?php echo get_stylesheet_directory_uri() . '/images/pages/logos/unit/wsu-office-studentdevelopment.svg'; ?>" class="max-width centered absolutely">
 		</div>
 		
 		<div class="column six">
-			<img src="/wp-content/themes/brand/images/pages/logos/unit/wsu-unit-honorscollege.svg" class="max-width centered absolutely">
+			<img src="<?php echo get_stylesheet_directory_uri() . '/images/pages/logos/unit/wsu-unit-honorscollege.svg'; ?>" class="max-width centered absolutely">
 		</div>
 		
 		<div class="column seven">
-			<img src="/wp-content/themes/brand/images/pages/logos/unit/wsu-college-murrow.svg" class="max-width centered absolutely">
+			<img src="<?php echo get_stylesheet_directory_uri() . '/images/pages/logos/unit/wsu-college-murrow.svg'; ?>" class="max-width centered absolutely">
 		</div>
 		
 		<div class="column eight">
-			<img src="/wp-content/themes/brand/images/pages/logos/unit/wsu-unit-viticultureenology.svg" class="max-width centered absolutely">
+			<img src="<?php echo get_stylesheet_directory_uri() . '/images/pages/logos/unit/wsu-unit-viticultureenology.svg'; ?>" class="max-width centered absolutely">
 		</div>
 	
 	</div>
@@ -348,10 +348,10 @@ button.detail header:after {
 				if( ! empty( $column ) ) { echo wp_kses_post( $column ); }
 				?>
 				<p>
-				<img src="/wp-content/themes/brand/images/pages/logos/figures/clearspace-single.png" class="max-width"></p>
+				<img src="<?php echo get_stylesheet_directory_uri() . '/images/pages/logos/figures/clearspace-single.png'; ?>" class="max-width"></p>
 			</div>
 			<div class="column four">
-				<img src="/wp-content/themes/brand/images/pages/logos/figures/clearspace-stacked.png" class="max-width">
+				<img src="<?php echo get_stylesheet_directory_uri() . '/images/pages/logos/figures/clearspace-stacked.png'; ?>" class="max-width">
 			</div>
 			
 			
@@ -375,11 +375,11 @@ button.detail header:after {
 	<div class="column one row halves gutter wide">
 	
 		<div class="column one">
-			<img src="/wp-content/themes/brand/images/pages/logos/abbreviated/wsu-tricities-abbreviated-horizontal.svg" style="height: 50px;" class="max-width">
+			<img src="<?php echo get_stylesheet_directory_uri() . '/images/pages/logos/abbreviated/wsu-tricities-abbreviated-horizontal.svg'; ?>" style="height: 50px;" class="max-width">
 		</div>
 		
 		<div class="column two">
-			<img src="/wp-content/themes/brand/images/pages/logos/abbreviated/wsu-education-abbreviated-horizontal.svg" style="height: 50px;" class="max-width">
+			<img src="<?php echo get_stylesheet_directory_uri() . '/images/pages/logos/abbreviated/wsu-education-abbreviated-horizontal.svg'; ?>" style="height: 50px;" class="max-width">
 		</div>
 	
 	</div>
@@ -387,7 +387,7 @@ button.detail header:after {
 	<div class="column one row single gutter wide">
 	
 		<div class="column one">
-			<img src="/wp-content/themes/brand/images/pages/logos/abbreviated/wsu-psychology-abbreviated-horizontal.svg" style="height: 50px;" class="max-width">
+			<img src="<?php echo get_stylesheet_directory_uri() . '/images/pages/logos/abbreviated/wsu-psychology-abbreviated-horizontal.svg'; ?>" style="height: 50px;" class="max-width">
 		</div>
 	
 	</div>
@@ -395,11 +395,11 @@ button.detail header:after {
 	<div class="column one row halves gutter wide">
 	
 		<div class="column one">
-			<img src="/wp-content/themes/brand/images/pages/logos/abbreviated/wsu-engineeringarchitecture-abbreviated-horizontal.svg" style="height: 75px;">
+			<img src="<?php echo get_stylesheet_directory_uri() . '/images/pages/logos/abbreviated/wsu-engineeringarchitecture-abbreviated-horizontal.svg'; ?>" style="height: 75px;">
 		</div>
 		
 		<div class="column two">
-			<img src="/wp-content/themes/brand/images/pages/logos/abbreviated/wsu-viticulture-abbreviated-horizontal.svg" style="height: 62px;">
+			<img src="<?php echo get_stylesheet_directory_uri() . '/images/pages/logos/abbreviated/wsu-viticulture-abbreviated-horizontal.svg'; ?>" style="height: 62px;">
 		</div>
 	
 	</div>
@@ -407,11 +407,11 @@ button.detail header:after {
 	<div class="column one row halves gutter wide abbreviated-vertical">
 	
 		<div class="column one">
-			<img src="/wp-content/themes/brand/images/pages/logos/abbreviated/wsu-vancouver-abbreviated-vertical.svg">
+			<img src="<?php echo get_stylesheet_directory_uri() . '/images/pages/logos/abbreviated/wsu-vancouver-abbreviated-vertical.svg'; ?>">
 		</div>
 		
 		<div class="column two">
-			<img src="/wp-content/themes/brand/images/pages/logos/abbreviated/wsu-honorscollege-abbreviated-vertical.svg">
+			<img src="<?php echo get_stylesheet_directory_uri() . '/images/pages/logos/abbreviated/wsu-honorscollege-abbreviated-vertical.svg'; ?>">
 		</div>
 	
 	</div>
@@ -463,8 +463,8 @@ button.detail header:after {
 		<article class="padless">
 		
 		<figure>
-			<center class="column one" style="background-image: url(/wp-content/themes/brand/images/pages/logos/wsu-shield-mark.svg); background-size: 45%;"></center>
-			<center class="column two" style="background-image: url(/wp-content/themes/brand/images/pages/logos/wsu-cougarhead.png)"></center>
+			<center class="column one" style="background-image: url(<?php echo get_stylesheet_directory_uri() . '/images/pages/logos/wsu-shield-mark.svg'; ?>); background-size: 45%;"></center>
+			<center class="column two" style="background-image: url(<?php echo get_stylesheet_directory_uri() . '/images/pages/logos/wsu-cougarhead.png'; ?>)"></center>
 		</figure>
 		
 		<button class="detail" alt="spirit and shield mark details">
@@ -494,28 +494,28 @@ button.detail header:after {
 				<span class="x-overunder"></span>
 				
 				<div class="column three third center padless">
-					<img src="/wp-content/themes/brand/images/pages/logos/examples/shield-missingchevron.png">
+					<img src="<?php echo get_stylesheet_directory_uri() . '/images/pages/logos/examples/shield-missingchevron.png'; ?>">
 				</div>
 				<div class="column four third center padless">
-					<img src="/wp-content/themes/brand/images/pages/logos/examples/shield-textblock.png">
+					<img src="<?php echo get_stylesheet_directory_uri() . '/images/pages/logos/examples/shield-textblock.png'; ?>">
 				</div>
 				<div class="column five third center padless">
-					<img src="/wp-content/themes/brand/images/pages/logos/examples/shield-beveled.png">
+					<img src="<?php echo get_stylesheet_directory_uri() . '/images/pages/logos/examples/shield-beveled.png'; ?>">
 				</div>
 				<div class="column six third center padless">
-					<img src="/wp-content/themes/brand/images/pages/logos/examples/shield-background.png">
+					<img src="<?php echo get_stylesheet_directory_uri() . '/images/pages/logos/examples/shield-background.png'; ?>">
 				</div>
 				<div class="column seven third center padless">
-					<img src="/wp-content/themes/brand/images/pages/logos/examples/shield-banner.png">
+					<img src="<?php echo get_stylesheet_directory_uri() . '/images/pages/logos/examples/shield-banner.png'; ?>">
 				</div>
 				<div class="column eight third center padless">
-					<img src="/wp-content/themes/brand/images/pages/logos/examples/cougarhead-board.png">
+					<img src="<?php echo get_stylesheet_directory_uri() . '/images/pages/logos/examples/cougarhead-board.png'; ?>">
 				</div>
 				<div class="column nine third center padless">
-					<img src="/wp-content/themes/brand/images/pages/logos/examples/cougarhead-mask.png">
+					<img src="<?php echo get_stylesheet_directory_uri() . '/images/pages/logos/examples/cougarhead-mask.png'; ?>">
 				</div>
 				<div class="column nine third center padless">
-					<img src="/wp-content/themes/brand/images/pages/logos/examples/cougarhead-mixed.png">
+					<img src="<?php echo get_stylesheet_directory_uri() . '/images/pages/logos/examples/cougarhead-mixed.png'; ?>">
 				</div>
 			
 			</div>
@@ -536,12 +536,12 @@ button.detail header:after {
 	
 	<div class="row halves">
 		<center class="column one">
-			<img src="/wp-content/themes/brand/images/pages/logos/social/wsu-central-social-badge.png" style="width: 150px;">
+			<img src="<?php echo get_stylesheet_directory_uri() . '/images/pages/logos/social/wsu-central-social-badge.png'; ?>" style="width: 150px;">
 			<h3 class="marginalized-top">central channels</h3>
 			<p>WSU Pullman<br> WSU Spokane<br> WSU Tri-Cities<br> WSU Vancouver<br> WSU Global Campus<br> Health Sciences<br> WSU Extension</p>
 		</center>
 		<center class="column two">
-			<img src="/wp-content/themes/brand/images/pages/logos/social/wsu-unit-social-badge.png" style="width: 150px;">
+			<img src="<?php echo get_stylesheet_directory_uri() . '/images/pages/logos/social/wsu-unit-social-badge.png'; ?>" style="width: 150px;">
 			<h3 class="marginalized-top">other channels</h3>
 			<p>University units,<br> campaigns,<br> or individuals<br> representing WSU<br> in an official capacity</p>
 		</center>
@@ -584,7 +584,7 @@ button.detail header:after {
 	<h2 class="marginalized">seal</h2>
 	
 	<center class="column one">
-		<img src="/wp-content/themes/brand/images/pages/logos/wsu-seal.png">
+		<img src="<?php echo get_stylesheet_directory_uri() . '/images/pages/logos/wsu-seal.png'; ?>">
 	</center>
 	
 	<div class="column one row side-right gutter wide">

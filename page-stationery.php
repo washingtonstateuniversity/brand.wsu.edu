@@ -53,7 +53,7 @@
 	<div class="row side-right column one">
 	
 			<h2>letterhead</h2>
-			<img src="/wp-content/themes/brand/images/pages/stationery/letterhead.png" class="max-width" width="752px;" style="margin-bottom: 20px;">
+			<img src="<?php echo get_stylesheet_directory_uri() . '/images/pages/stationery/letterhead.png'; ?>" class="max-width" width="752px;" style="margin-bottom: 20px;">
 			
 			
 				<div class="column one marginless padless">
@@ -61,7 +61,7 @@
 				</div>
 				<div class="column two marginless padless">
 					<dl class="downloads">
-						<dd><a href="/wp-content/themes/brand/downloads/stationery/WSU-letterhead-content-template.dotx.zip">download</a></dd>
+						<dd><a href="<?php echo get_stylesheet_directory_uri() . '/downloads/stationery/WSU-letterhead-content-template.dotx.zip'; ?>">download</a></dd>
 					</dl>
 				
 			</div>
@@ -76,7 +76,7 @@
 	<div class="column one">
 		<article class="padless">
 			<h2>no.10 envelope</h2>
-			<img src="/wp-content/themes/brand/images/pages/stationery/envelope.png" class="max-width" width="752px;">
+			<img src="<?php echo get_stylesheet_directory_uri() . '/images/pages/stationery/envelope.png'; ?>" class="max-width" width="752px;">
 		</article>
 	</div>
 
@@ -87,7 +87,7 @@
 	<div class="column one">
 		<article class="padless">
 			<h2>business card</h2>
-			<img src="/wp-content/themes/brand/images/pages/stationery/businesscard.png" class="max-width" width="380px;">		
+			<img src="<?php echo get_stylesheet_directory_uri() . '/images/pages/stationery/businesscard.png'; ?>" class="max-width" width="380px;">
 		</article>
 	</div>
 
