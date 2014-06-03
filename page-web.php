@@ -561,7 +561,7 @@ pre code {
 <section id="resolution" class="row side-right gutter wide">
 	<style>
 	#resolution .column.two {
-		background: url('http://repo.wsu.edu/spine/1/marks/wsu-signature-vertical.svg') center center no-repeat;
+		background: url('//repo.wsu.edu/spine/1/marks/wsu-signature-vertical.svg') center center no-repeat;
 		background-size: auto; 
 		}
 	#resolution:hover .column.two {
@@ -601,12 +601,12 @@ pre code {
 
 	<style>
 		#campus-ready .column.one {
-			background: url('http://repo.wsu.edu/spine/1/marks/wsu-spokane-signature-vertical.svg') center center no-repeat;
+			background: url('//repo.wsu.edu/spine/1/marks/wsu-spokane-signature-vertical.svg') center center no-repeat;
 			background-size: auto; 
 			}
 		#campus-ready::before,
 		#campus-ready:hover .column.one {
-			background: url('http://repo.wsu.edu/spine/1/marks/wsu-globalcampus-signature-vertical.svg') center center no-repeat;
+			background: url('//repo.wsu.edu/spine/1/marks/wsu-globalcampus-signature-vertical.svg') center center no-repeat;
 			}
 	</style>
 	
