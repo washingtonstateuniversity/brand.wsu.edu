@@ -581,10 +581,10 @@ pre code {
 </section>
 
 <section class="row quarters wireframe-only">
-	<div class="column one picture-frame"><img src="/wp-content/themes/brand/images/pages/wireframe/1.png" class="fill-width"></div>
-	<div class="column two picture-frame"><img src="/wp-content/themes/brand/images/pages/wireframe/2.png" class="fill-width"></div>
-	<div class="column three picture-frame"><img src="/wp-content/themes/brand/images/pages/wireframe/3.png" class="fill-width"></div>
-	<div class="column four picture-frame"><img src="/wp-content/themes/brand/images/pages/wireframe/4.png" class="fill-width"></div>
+	<div class="column one picture-frame"><img src="<?php echo get_stylesheet_directory_uri() . '/images/pages/wireframe/1.png'; ?>" class="fill-width"></div>
+	<div class="column two picture-frame"><img src="<?php echo get_stylesheet_directory_uri() . '/images/pages/wireframe/2.png'; ?>" class="fill-width"></div>
+	<div class="column three picture-frame"><img src="<?php echo get_stylesheet_directory_uri() . '/images/pages/wireframe/3.png'; ?>" class="fill-width"></div>
+	<div class="column four picture-frame"><img src="<?php echo get_stylesheet_directory_uri() . '/images/pages/wireframe/4.png'; ?>" class="fill-width"></div>
 </section>
 
 <section class="row halves  wireframe-only">
