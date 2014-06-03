@@ -220,8 +220,8 @@ button.detail header:after {
 
 	<div class="row halves primary-sigs">
 	
-		<center class="column one"><img src="<?php echo get_stylesheet_directory_uri() . '/images/pages/logos/campus/wsu-spokane-signature-primary.svg"></center>
-		<center class="column two"><img src="<?php echo get_stylesheet_directory_uri() . '/images/pages/logos/campus/wsu-globalcampus-signature-primary.svg"></center>
+		<center class="column one"><img src="<?php echo get_stylesheet_directory_uri() . '/images/pages/logos/campus/wsu-spokane-signature-primary.svg'; ?>"></center>
+		<center class="column two"><img src="<?php echo get_stylesheet_directory_uri() . '/images/pages/logos/campus/wsu-globalcampus-signature-primary.svg'; ?>"></center>
 	
 	</div>
 	
