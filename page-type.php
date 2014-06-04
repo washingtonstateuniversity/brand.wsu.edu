@@ -63,12 +63,12 @@ button.detail header::after {
 
 	<div class="column one four-twelfths" style="text-align: right;">
 		<figure>
-			<img src="<?php echo get_stylesheet_directory_uri() . '/images/pages/type/Aa.png'; ?>" width="210px">
+			<img src="/wp-content/themes/brand/images/pages/type/Aa.png" width="210px">
 		</figure>
 	</div>
 	<div class="column two eight-twelfths">
 		<figure>
-			<img src="<?php echo get_stylesheet_directory_uri() . '/images/pages/type/letters.png'; ?>" style="margin: 47px 0px 0px 20px;">
+			<img src="/wp-content/themes/brand/images/pages/type/letters.png" style="margin: 47px 0px 0px 20px;">
 		</figure>
 	</div>
 
@@ -79,7 +79,7 @@ button.detail header::after {
 	<div class="column one">
 		<figure>
 			<h2 class="not-lowercase">ITC Stone Serif</h2>
-			<img src="<?php echo get_stylesheet_directory_uri() . '/images/pages/type/stone-serif.png'; ?>">
+			<img src="/wp-content/themes/brand/images/pages/type/stone-serif.png">
 		</figure>
 	</div>
 
@@ -90,13 +90,13 @@ button.detail header::after {
 	<div class="column one">
 		<figure>
 			<h2 class="not-lowercase">ITC Stone Sans II</h2>
-			<img src="<?php echo get_stylesheet_directory_uri() . '/images/pages/type/stone-sans-col1.png'; ?>">
+			<img src="/wp-content/themes/brand/images/pages/type/stone-sans-col1.png">
 		</figure>
 	</div>
 	<div class="column two">
 		<figure>
 			<h2>&nbsp;</h2>
-			<img src="<?php echo get_stylesheet_directory_uri() . '/images/pages/type/stone-sans-col2.png'; ?>">
+			<img src="/wp-content/themes/brand/images/pages/type/stone-sans-col2.png">
 		</figure>
 	</div>
 	

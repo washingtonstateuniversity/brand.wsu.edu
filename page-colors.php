@@ -509,7 +509,7 @@ $('.secondaries .switch.green-text').click( function() {
 
 <div class="fluid">
 
-<section id="palettes" class="row thirds unequaled colors">
+<section id="palettes" class="row thirds unequaled colors max-width">
 
 	<div id="crimson-palette" class="column one unequaled">
 	

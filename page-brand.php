@@ -68,7 +68,7 @@ button.detail::after {
 
 <main>
 
-<section id="we-are" class="row single">
+<section id="we-are" class="row single max-width">
 
 <figure style="background-image: url('/wp-content/themes/brand/images/pages/brand/cougcheek.jpg');">
 	<figcaption><big>we are</big></figcaption>
@@ -107,7 +107,7 @@ button.detail::after {
 
 </section>
 
-<section id="we-believe" class="row single">
+<section id="we-believe" class="row single max-width">
 
 <figure style="background-image: url('/wp-content/themes/brand/images/pages/brand/protection.jpg');">
 	<figcaption><big>we believe in</big></figcaption>
@@ -132,7 +132,7 @@ button.detail::after {
 
 </section>
 
-<section id="we-emphasize" class="row single wide">
+<section id="we-emphasize" class="row single max-width">
 
 <figure style="background-image: url('/wp-content/themes/brand/images/pages/brand/shrooms.jpg');">
 	<figcaption><big>we emphasize</big></figcaption>
@@ -177,7 +177,7 @@ button.detail::after {
 
 </section>
 
-<section id="we-offer" class="row single">
+<section id="we-offer" class="row single max-width">
 
 <figure style="background-image: url('/wp-content/themes/brand/images/pages/brand/gradjump.jpg');">
 	<figcaption><big>we offer</big></figcaption>
@@ -202,7 +202,7 @@ button.detail::after {
 
 </section>
 
-<section id="we-promise" class="row single unbound recto">
+<section id="we-promise" class="row single max-width">
 
 <figure style="background-image: url('/wp-content/themes/brand/images/pages/brand/foreground.jpg');">
 	<figcaption><big>we promise</big></figcaption>

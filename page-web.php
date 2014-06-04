@@ -561,7 +561,7 @@ pre code {
 <section id="resolution" class="row side-right gutter wide">
 	<style>
 	#resolution .column.two {
-		background: url('//repo.wsu.edu/spine/1/marks/wsu-signature-vertical.svg') center center no-repeat;
+		background: url('http://repo.wsu.edu/spine/1/marks/wsu-signature-vertical.svg') center center no-repeat;
 		background-size: auto; 
 		}
 	#resolution:hover .column.two {
@@ -581,10 +581,10 @@ pre code {
 </section>
 
 <section class="row quarters wireframe-only">
-	<div class="column one picture-frame"><img src="<?php echo get_stylesheet_directory_uri() . '/images/pages/wireframe/1.png'; ?>" class="fill-width"></div>
-	<div class="column two picture-frame"><img src="<?php echo get_stylesheet_directory_uri() . '/images/pages/wireframe/2.png'; ?>" class="fill-width"></div>
-	<div class="column three picture-frame"><img src="<?php echo get_stylesheet_directory_uri() . '/images/pages/wireframe/3.png'; ?>" class="fill-width"></div>
-	<div class="column four picture-frame"><img src="<?php echo get_stylesheet_directory_uri() . '/images/pages/wireframe/4.png'; ?>" class="fill-width"></div>
+	<div class="column one picture-frame"><img src="/wp-content/themes/brand/images/pages/wireframe/1.png" class="fill-width"></div>
+	<div class="column two picture-frame"><img src="/wp-content/themes/brand/images/pages/wireframe/2.png" class="fill-width"></div>
+	<div class="column three picture-frame"><img src="/wp-content/themes/brand/images/pages/wireframe/3.png" class="fill-width"></div>
+	<div class="column four picture-frame"><img src="/wp-content/themes/brand/images/pages/wireframe/4.png" class="fill-width"></div>
 </section>
 
 <section class="row halves  wireframe-only">
@@ -601,12 +601,12 @@ pre code {
 
 	<style>
 		#campus-ready .column.one {
-			background: url('//repo.wsu.edu/spine/1/marks/wsu-spokane-signature-vertical.svg') center center no-repeat;
+			background: url('http://repo.wsu.edu/spine/1/marks/wsu-spokane-signature-vertical.svg') center center no-repeat;
 			background-size: auto; 
 			}
 		#campus-ready::before,
 		#campus-ready:hover .column.one {
-			background: url('//repo.wsu.edu/spine/1/marks/wsu-globalcampus-signature-vertical.svg') center center no-repeat;
+			background: url('http://repo.wsu.edu/spine/1/marks/wsu-globalcampus-signature-vertical.svg') center center no-repeat;
 			}
 	</style>
 	

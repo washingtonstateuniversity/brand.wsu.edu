@@ -10,6 +10,11 @@
 
 @import url("../spine/style.css");
 
+.row.unbound,
+.unbound {
+	max-width: 100%;
+	}
+
 body {
 	color: #5e6a71;
 	font-size: 13px;

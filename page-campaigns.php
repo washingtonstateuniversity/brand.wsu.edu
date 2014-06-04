@@ -23,7 +23,7 @@
 <section id="campaign" class="row halves marginalize gutter wide">
 
 	<article class="padless">
-		<figure style="text-align: center; padding-top: 40px;" class="twelve-twelfths-max"><img src="<?php echo get_stylesheet_directory_uri() . '/images/pages/campaigns/campaign.png'; ?>"></figure>
+		<figure style="text-align: center; padding-top: 40px;" class="twelve-twelfths-max"><img src="/wp-content/themes/brand/images/pages/campaigns/campaign.png"></figure>
 		<div class="column one">
 			<?php 
 			$column = get_post_meta( get_the_ID(), 'section-2-1', true );
@@ -34,7 +34,7 @@
 			<p>The campaign brand standards are in effect until its projected conclusion in the fall 2015.</p>
 			<dl class="downloads">
 				<dt>campaign standards</dt>
-				<dd><a href="<?php echo get_stylesheet_directory_uri() . '/downloads/campaign/WSU-Campaign-Guide.pdf'; ?>">PDF</a></dd>
+				<dd><a href="/wp-content/themes/brand/downloads/campaign/WSU-Campaign-Guide.pdf">PDF</a></dd>
 			</dl>
 		</div>
 	</article>
