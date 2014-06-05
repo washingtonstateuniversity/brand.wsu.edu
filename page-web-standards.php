@@ -29,6 +29,12 @@ main hr {
 	max-width: 792px;
 	margin: 2em 4em;
 	}
+main hr.topheavy {
+	margin-bottom: 1em;
+	}
+main hr.bottomheavy {
+	margin-top: 1em
+	}
 dd li {
 	padding-bottom: 0;
 	}
@@ -41,20 +47,40 @@ xxmain section {
 xxmain section ~ section {
 	padding-top: 2em;
 	}
-
+	
+/* In page navigation */
+.parent > a[href*="#index"] {
+	margin-top: 10px;
+	}
 a[href*="#index"] ~ ul {
-	border-width: 1px 0px;
+	margin-bottom: 10px;
+	}
+a[href*="#index"] ~ ul {
+	xxborder-width: 1px 0px;
+	
+	
+	}
+a[href*="#index"],
+a[href*="#index"] ~ ul li a {
+	border-width: 0px 0px 0px 1px !important;
 	border-style: dotted;
 	border-color: #b5babe;
+	margin-left: -10px !important;
+	padding-left: 10px !important;
 	}
 a[href*="#index"] ~ ul li {
 	margin-left: 0 !important;
+	}
+a[href*="#index"] ~ ul li a {
+	
+	
 	}
 a[href*="#index"] ~ ul li a,
 a[href*="#index"] ~ ul li .active a {
 	color: gray !important;
 	font-weight: normal !important;
 	}
+
 a[href*="#index"] {
 	color: #981e32 !important;
 	font-weight: bold;
@@ -118,17 +144,17 @@ main > h2 {
 			<h4></h4>
 		</dt>
 		<dd class="row halves column two gutter wide">
-			<div class="column one">
+			<div class="column">
 				<h4>Full Spine</h4>
 			</div>
-			<div class="column two">
+			<div class="column">
 				<h4>Cropped Spine</h4>
 			</div>
 		</dd>
 		
 	</dl>
 	
-	<hr>
+	<hr class="bottomheavy">
 	
 	<dl id="standard-positioning" class="row side-left wide cf">
 		
@@ -136,13 +162,13 @@ main > h2 {
 			<h4>Positioning</h4>
 		</dt>
 		<dd class="row halves column two gutter wide">
-			<div class="column one">
+			<div class="column">
 				<?php 
 				$column = get_post_meta( get_the_ID(), 'positioning-1', true );
 				if( ! empty( $column ) ) { echo wp_kses_post( $column ); }
 				?>
 			</div>
-			<div class="column two">
+			<div class="column">
 				<?php 
 				$column = get_post_meta( get_the_ID(), 'positioning-2', true );
 				if( ! empty( $column ) ) { echo wp_kses_post( $column ); }
@@ -152,7 +178,7 @@ main > h2 {
 		
 	</dl>
 	
-	<hr class="short">
+	<hr>
 	
 	<dl id="standard-dimensions" class="row side-left wide cf">
 		
@@ -160,13 +186,13 @@ main > h2 {
 			<h4>Dimensions</h4>
 		</dt>
 		<dd class="row halves column two gutter wide">
-			<div class="column one">
+			<div class="column">
 				<?php 
 				$column = get_post_meta( get_the_ID(), 'dimensions-1', true );
 				if( ! empty( $column ) ) { echo wp_kses_post( $column ); }
 				?>
 			</div>
-			<div class="column two">
+			<div class="column">
 				<?php 
 				$column = get_post_meta( get_the_ID(), 'dimensions-2', true );
 				if( ! empty( $column ) ) { echo wp_kses_post( $column ); }
@@ -200,13 +226,13 @@ main > h2 {
 			<h4>Edges</h4>
 		</dt>
 		<dd class="row halves column two gutter wide">
-			<div class="column one">
+			<div class="column">
 				<?php 
 				$column = get_post_meta( get_the_ID(), 'edges-1', true );
 				if( ! empty( $column ) ) { echo wp_kses_post( $column ); }
 				?>
 			</div>
-			<div class="column two">
+			<div class="column">
 				<?php 
 				$column = get_post_meta( get_the_ID(), 'edges-2', true );
 				if( ! empty( $column ) ) { echo wp_kses_post( $column ); }
@@ -342,33 +368,35 @@ main > h2 {
 	
 	<dl id="standard-columns" class="row side-left wide cf">
 		
-		<dt class="column one guttered"></dt>
-		<dd class="row halves column two gutter">
-			<div class="column one">
+		<dt class="column one guttered wide">
+			<h4></h4>
+		</dt>
+		<dd class="row halves column two gutter wide">
+			<div class="column">
 				<h4>Full Spine</h4>
 			</div>
-			<div class="column two">
+			<div class="column">
 				<h4>Cropped Spine</h4>
 			</div>
 		</dd>
 		
 	</dl>
 	
-	<hr>
+	<hr class="bottomheavy">
 	
 	<dl id="standard-sitenav" class="row side-left cf">
 		
-		<dt class="column one guttered">
+		<dt class="column one guttered wide">
 			<h3>Site Navigation</h3>
 		</dt>
-		<dd class="row halves column two gutter">
-			<div class="column one">
+		<dd class="row halves column two gutter wide">
+			<div class="column">
 				<?php 
 				$column = get_post_meta( get_the_ID(), 'sitenav-1', true );
 				if( ! empty( $column ) ) { echo wp_kses_post( $column ); }
 				?>
 			</div>
-			<div class="column two">
+			<div class="column">
 				<?php 
 				$column = get_post_meta( get_the_ID(), 'sitenav-2', true );
 				if( ! empty( $column ) ) { echo wp_kses_post( $column ); }
@@ -382,10 +410,10 @@ main > h2 {
 	
 	<dl id="standard-offsitenav" class="row side-left cf">
 		
-		<dt class="column one guttered">
+		<dt class="column one guttered wide">
 			<h3>Offsite Navigation</h3>
 		</dt>
-		<dd class="column two guttered">
+		<dd class="column two guttered wide">
 			<?php 
 			$column = get_post_meta( get_the_ID(), 'offsitenav-1', true );
 			if( ! empty( $column ) ) { echo wp_kses_post( $column ); }
@@ -406,26 +434,26 @@ main > h2 {
 	</header>
 </button>
 <div class="details">
-
-	<div class="row single gutter marginalize">
-		<div class="column one">
-			<?php 
-			$column = get_post_meta( get_the_ID(), 'footer', true );
-			if( ! empty( $column ) ) { echo wp_kses_post( $column ); }
-			?>
-		</div>
-	</div>
+	
+	<?php $column = get_post_meta( get_the_ID(), 'footer', true );
+		if( ! empty( $column ) ) : ?>
+			<div class="row single gutter marginalize">
+				<div class="column one">
+					 <?php echo wp_kses_post( $column ); ?>
+				</div>
+			</div>
+	<?php endif; ?>
 	
 	<dl id="standard-columns" class="row side-left wide cf">
 		
-		<dt class="column one guttered">
+		<dt class="column one guttered wide">
 			<h3></h3>
 		</dt>
-		<dd class="row halves column two gutter">
-			<div class="column one">
+		<dd class="row halves column two gutter wide">
+			<div class="column">
 				<h4>Full Spine</h4>
 			</div>
-			<div class="column two">
+			<div class="column">
 				<h4>Cropped Spine</h4>
 			</div>
 		</dd>
@@ -436,17 +464,17 @@ main > h2 {
 	
 	<dl id="standard-socialmedialinks" class="row side-left cf">
 		
-		<dt class="column one guttered">
+		<dt class="column one guttered wide">
 			<h3>Social Media Links</h3>
 		</dt>
-		<dd class="row halves column two gutter">
-			<div class="column one">
+		<dd class="row halves column two gutter wide">
+			<div class="column">
 				<?php 
 				$column = get_post_meta( get_the_ID(), 'socialmedialinks-1', true );
 				if( ! empty( $column ) ) { echo wp_kses_post( $column ); }
 				?>
 			</div>
-			<div class="column two">
+			<div class="column">
 				<?php 
 				$column = get_post_meta( get_the_ID(), 'socialmedialinks-2', true );
 				if( ! empty( $column ) ) { echo wp_kses_post( $column ); }
@@ -456,21 +484,21 @@ main > h2 {
 		
 	</dl>
 
-	<hr>
+	<hr class="topheavy">
 	
 	<dl id="standard-footer" class="row side-left cf">
 		
-		<dt class="column one guttered">
+		<dt class="column one guttered wide">
 			<h3>Footer Links</h3>
 		</dt>
-		<dd class="row halves column two gutter">
-			<div class="column one">
+		<dd class="row halves column two gutter wide">
+			<div class="column">
 				<?php 
 				$column = get_post_meta( get_the_ID(), 'footer-1', true );
 				if( ! empty( $column ) ) { echo wp_kses_post( $column ); }
 				?>
 			</div>
-			<div class="column two">
+			<div class="column">
 				<?php 
 				$column = get_post_meta( get_the_ID(), 'footer-2', true );
 				if( ! empty( $column ) ) { echo wp_kses_post( $column ); }
@@ -506,14 +534,14 @@ main > h2 {
 	
 	<dl id="standard-columns" class="row side-left wide cf">
 		
-		<dt class="column one guttered">
+		<dt class="column one guttered wide">
 			<h3></h3>
 		</dt>
-		<dd class="row halves column two gutter">
-			<div class="column one">
+		<dd class="row halves column two gutter wide">
+			<div class="column">
 				<h4>Full Spine</h4>
 			</div>
-			<div class="column two">
+			<div class="column">
 				<h4>Cropped Spine</h4>
 			</div>
 		</dd>
@@ -524,17 +552,17 @@ main > h2 {
 	
 	<dl id="standard-smallview" class="row side-left cf">
 		
-		<dt class="column one guttered">
+		<dt class="column one guttered wide">
 			<h4>Small View</h4>
 		</dt>
-		<dd class="row halves column two gutter">
-			<div class="column one">
+		<dd class="row halves column two gutter wide">
+			<div class="column">
 				<?php 
 				$column = get_post_meta( get_the_ID(), 'smallview-1', true );
 				if( ! empty( $column ) ) { echo wp_kses_post( $column ); }
 				?>
 			</div>
-			<div class="column two">
+			<div class="column">
 				<?php 
 				$column = get_post_meta( get_the_ID(), 'smallview-2', true );
 				if( ! empty( $column ) ) { echo wp_kses_post( $column ); }
@@ -548,17 +576,17 @@ main > h2 {
 	
 	<dl id="standard-mediumview" class="row side-left cf">
 		
-		<dt class="column one guttered">
+		<dt class="column one guttered wide">
 			<h4>Medium View</h4>
 		</dt>
-		<dd class="row halves column two gutter">
-			<div class="column one">
+		<dd class="row halves column two gutter wide">
+			<div class="column">
 				<?php 
 				$column = get_post_meta( get_the_ID(), 'mediumview-1', true );
 				if( ! empty( $column ) ) { echo wp_kses_post( $column ); }
 				?>
 			</div>
-			<div class="column two">
+			<div class="column">
 				<?php 
 				$column = get_post_meta( get_the_ID(), 'mediumview-2', true );
 				if( ! empty( $column ) ) { echo wp_kses_post( $column ); }
@@ -572,17 +600,17 @@ main > h2 {
 	
 	<dl id="standard-largeview" class="row side-left cf">
 		
-		<dt class="column one guttered">
+		<dt class="column one guttered wide">
 			<h4>Large View</h4>
 		</dt>
-		<dd class="row halves column two gutter">
-			<div class="column one">
+		<dd class="row halves column two gutter wide">
+			<div class="column">
 				<?php 
 				$column = get_post_meta( get_the_ID(), 'largeview-1', true );
 				if( ! empty( $column ) ) { echo wp_kses_post( $column ); }
 				?>
 			</div>
-			<div class="column two">
+			<div class="column">
 				<?php 
 				$column = get_post_meta( get_the_ID(), 'largeview-2', true );
 				if( ! empty( $column ) ) { echo wp_kses_post( $column ); }
@@ -592,7 +620,7 @@ main > h2 {
 		
 	</dl>
 	
-	<hr><hr>
+	<hr>
 	
 	<!--<div class="row single gutter marginalize">
 		<div class="column one">
@@ -606,10 +634,10 @@ main > h2 {
 	
 	<dl id="standard-xlargeview" class="row side-left cf">
 		
-		<dt class="column one guttered">
+		<dt class="column one guttered wide">
 			<h4>X-Large View</h4>
 		</dt>
-		<dd class="column two guttered">
+		<dd class="column two guttered wide">
 				<?php 
 				$column = get_post_meta( get_the_ID(), 'xlargeview', true );
 				if( ! empty( $column ) ) { echo wp_kses_post( $column ); }
@@ -622,10 +650,10 @@ main > h2 {
 	
 	<dl id="standard-printview" class="row side-left cf">
 		
-		<dt class="column one guttered">
+		<dt class="column one guttered wide">
 			<h4>Print View</h4>
 		</dt>
-		<dd class="column two guttered">
+		<dd class="column two guttered wide">
 			<?php 
 			$column = get_post_meta( get_the_ID(), 'printview', true );
 			if( ! empty( $column ) ) { echo wp_kses_post( $column ); }
@@ -658,10 +686,10 @@ main > h2 {
 
 <dl id="standard-grid" class="row side-left cf">
 	
-	<dt class="column one guttered">
+	<dt class="column one guttered wide">
 		<h3>columns</h3>
 	</dt>
-	<dd class="column two guttered">
+	<dd class="column two guttered wide">
 			<?php 
 			$column = get_post_meta( get_the_ID(), 'columns', true );
 			if( ! empty( $column ) ) { echo wp_kses_post( $column ); }
@@ -672,10 +700,10 @@ main > h2 {
 
 <dl id="standard-grid" class="row side-left cf">
 	
-	<dt class="column one guttered">
+	<dt class="column one guttered wide">
 		<h3>responsiveness</h3>
 	</dt>
-	<dd class="column two guttered">
+	<dd class="column two guttered wide">
 			<?php 
 			$column = get_post_meta( get_the_ID(), 'responsiveness', true );
 			if( ! empty( $column ) ) { echo wp_kses_post( $column ); }
