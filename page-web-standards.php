@@ -101,7 +101,39 @@ main > h2 {
 	padding: 1em 2em;
 	background: #8d959a;
 	}
-
+dd .column:nth-of-type(1):before,
+dd .column:nth-of-type(2):before {
+	text-transform: lowercase;
+	font-weight: bold;
+	opacity: .5;
+	font-size: 1.2em;
+	display: block;
+	}
+.size-lt-medium dl:not(.column-headers) dd .column:nth-of-type(1):before {
+	content: "Full Spine";
+	}
+.size-lt-medium dl:not(.column-headers) dd .column:nth-of-type(2):before {
+	content: "Cropped Spine";
+	}
+	
+.size-lt-medium main hr {
+	margin-left: 2em;
+	margin-right: 2em;
+	}
+.size-lt-medium main > h2 {
+	padding-left: 32px;
+	}
+.size-lt-medium .column-headers {
+	display: none;
+	}
+.size-lt-medium .gutter.wide .column,
+.size-lt-medium .guttered.wide {
+	padding-left: 2em;
+	padding-right: 2em;
+	}
+.size-lt-medium button.detail {
+	text-indent: 2em;
+	}
 </style>
 
 <main>
@@ -111,9 +143,9 @@ main > h2 {
 <section id="intro" class="row side-right gutter wide marginalize tall">
 
 	<div class="column one">
-	
-		<big>The following standards</big> are informed by mandate to provide a foundation of consistent form and function across the WSU web ecosystem.
-	
+		<?php while ( have_posts() ) : the_post(); ?>
+			<?php the_content(); ?>
+		<?php endwhile; ?>
 	</div>
 
 </section>
@@ -138,7 +170,7 @@ main > h2 {
 		</div>
 	</div>
 	
-	<dl id="standard-columns" class="row side-left wide cf">
+	<dl class="column-headers row side-left wide cf">
 		
 		<dt class="column one guttered wide">
 			<h4></h4>
@@ -366,7 +398,7 @@ main > h2 {
 		</div>
 	</div>
 	
-	<dl id="standard-columns" class="row side-left wide cf">
+	<dl class="column-headers row side-left wide cf">
 		
 		<dt class="column one guttered wide">
 			<h4></h4>
@@ -444,7 +476,7 @@ main > h2 {
 			</div>
 	<?php endif; ?>
 	
-	<dl id="standard-columns" class="row side-left wide cf">
+	<dl class="column-headers row side-left wide cf">
 		
 		<dt class="column one guttered wide">
 			<h3></h3>
@@ -532,7 +564,7 @@ main > h2 {
 		</div>
 	</div>
 	
-	<dl id="standard-columns" class="row side-left wide cf">
+	<dl class="column-headers row side-left wide cf">
 		
 		<dt class="column one guttered wide">
 			<h3></h3>
