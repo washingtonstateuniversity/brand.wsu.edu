@@ -84,7 +84,7 @@ samp ul {
 	
 </section>
 
-<section id="quick-tips" class="row halves gutter wide">
+<section id="quick-tips" class="row halves gutter wide max-width">
 	<button class="detail unbound recto" alt="disclose quick-tips">
 	<header>
 			<h2>Quick Tips: <small>answers to common questions</small></h2>
@@ -109,7 +109,7 @@ samp ul {
 
 </section>
 
-<section id="capitalization" class="row halves gutter wide">
+<section id="capitalization" class="row halves gutter wide max-width">
 	<button class="detail" alt="disclose capitalization">
 		<header>
 			<h2>Capitalization: <small>not always a capital idea</small></h2>
@@ -135,7 +135,7 @@ samp ul {
 </section>
 
 
-<section id="punctuation" class="row halves gutter wide">
+<section id="punctuation" class="row halves gutter wide max-width">
 
 	<button class="detail" alt="disclose punctuation">
 		<header>
@@ -161,7 +161,7 @@ samp ul {
 
 </section>
 
-<section id="spelling" class="row single">
+<section id="spelling" class="row single max-width">
 
 	<button class="detail">
 		<header>
@@ -192,7 +192,7 @@ samp ul {
 
 </section>
 
-<section id="numbers" class="row halves gutter wide">
+<section id="numbers" class="row halves gutter wide max-width">
 	<button class="detail" alt="disclose numbers">
 		<header>
 			<h2>Numbers: <small>a simple equation for readability</small></h2>

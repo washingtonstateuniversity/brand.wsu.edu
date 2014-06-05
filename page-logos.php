@@ -97,7 +97,7 @@ button.detail header:after {
 
 <?php get_template_part('parts/headers'); ?>
 
-<section id="wsu-signatures" class="row single">
+<section id="wsu-signatures" class="row single max-width">
 	
 	<div class="column one row halves gutter wide">
 	
@@ -206,7 +206,7 @@ button.detail header:after {
 	
 </section>
 
-<section id="campus-signatures" class="row single">
+<section id="campus-signatures" class="row single max-width">
 
 	<style>
 	
@@ -238,7 +238,7 @@ button.detail header:after {
 	
 	</div>
 	
-	<div class="column one row halves wide gutter">
+	<div class="column one row halves wide gutter max-width">
 	
 		<button class="detail" alt="campus signature details">
 			<header></header>
@@ -271,7 +271,7 @@ button.detail header:after {
 	
 </section>
 
-<section id="unit-signatures" class="row single">
+<section id="unit-signatures" class="row single max-width">
 
 	<style>
 		.unit-sigs img { width: 320px; margin-bottom: 0px; }
@@ -316,7 +316,7 @@ button.detail header:after {
 	
 	</div>
 	
-	<div class="column one row halves gutter wide">
+	<div class="column one row halves gutter wide max-width">
 		
 		<button class="detail" alt="unit signature details">
 			<header></header>
@@ -363,7 +363,7 @@ button.detail header:after {
 	
 </section>
 
-<section id="abbreviated-signatures" class="row single">
+<section id="abbreviated-signatures" class="row single max-width">
 
 	<style>
 		#abbreviated-signatures img { margin-bottom: 60px; }
@@ -416,7 +416,7 @@ button.detail header:after {
 	
 	</div>
 	
-	<div class="column one row halves gutter wide">
+	<div class="column one row halves gutter wide max-width">
 		
 		<button class="detail" alt="abbreviated signature details">
 			<header></header>
@@ -448,7 +448,7 @@ button.detail header:after {
 	
 </section>
 
-<section id="shield-spirit-marks" class="row single">
+<section id="shield-spirit-marks" class="row single max-width">
 
 	<style>
 	
@@ -530,7 +530,7 @@ button.detail header:after {
 	
 </section>
 
-<section id="social-badges" class="row single">
+<section id="social-badges" class="row single max-width">
 	
 	<h2 class="marginalized">social media badges</h2>
 	
@@ -579,7 +579,7 @@ button.detail header:after {
 	
 </section>
 
-<section id="seal" class="row single">
+<section id="seal" class="row single max-width">
 	
 	<h2 class="marginalized">seal</h2>
 	

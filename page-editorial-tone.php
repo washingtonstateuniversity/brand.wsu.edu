@@ -70,7 +70,7 @@ main section button.detail {
 
 </section>
 
-<section id="brand-drivers" class="row side-right gutter wide">
+<section id="brand-drivers" class="row side-right gutter wide max-width">
 	<button class="detail unbound recto guttered">
 		<header>
 			<h2>key messages and benefits</h2>
@@ -96,7 +96,7 @@ main section button.detail {
 
 </section>
 
-<section id="best-practices" class="row side-right gutter wide alternate">
+<section id="best-practices" class="row side-right gutter wide alternate max-width">
 	<button class="detail unbound recto guttered">
 		<header>
 			<h2>best practices</h2>

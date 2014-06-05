@@ -14,6 +14,9 @@
 .unbound {
 	max-width: 100%;
 	}
+.row {
+	max-width: 100%;
+	}
 
 body {
 	color: #5e6a71;
@@ -46,7 +49,7 @@ main ul li {
 .row .column article {
 	padding: 0px;
 	}
-section.alternate {
+.alternate {
 	background-color: #EFF0F1;
 	}
 article.intro,
