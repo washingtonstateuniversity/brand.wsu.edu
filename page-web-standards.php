@@ -41,11 +41,19 @@ dd li {
 main section:nth-of-type(even) {
 	background-color: #EFF0F1;
 	}
+
+xxmain section:nth-of-type(odd).detailed button,
+xxmain section:nth-of-type(even).detailed button {
+	border-bottom: 1px #EFF0F1 solid;
+	}
 xxmain section {
 	padding-bottom: 4em;
 	}
 xxmain section ~ section {
 	padding-top: 2em;
+	}
+main section dl:last-of-type {
+	padding-bottom: 4em;
 	}
 	
 /* In page navigation */
@@ -546,6 +554,27 @@ dd .column:nth-of-type(2):before {
 
 <h2>The Page</h2>
 
+<section id="fonts-colors">
+
+<button class="detail" alt="disclose capitalization">
+	<header>
+		<h3>style</h3>
+	</header>
+</button>
+<div class="details">
+
+<div class="row single gutter wide">
+	<div class="column one">
+		<?php 
+		$column = get_post_meta( get_the_ID(), 'page', true );
+		if( ! empty( $column ) ) { echo wp_kses_post( $column ); }
+		?>
+	</div>
+</div>
+
+
+</section>
+
 <section id="views">
 
 <button class="detail" alt="disclose capitalization">
@@ -716,21 +745,45 @@ dd .column:nth-of-type(2):before {
 	</div>
 </div>
 
-<dl id="standard-grid" class="row side-left cf">
+<!--<hr class="bottom-heavy">-->
+
+<dl id="standard-columns" class="row side-left cf">
 	
 	<dt class="column one guttered wide">
 		<h3>columns</h3>
 	</dt>
-	<dd class="column two guttered wide">
-			<?php 
-			$column = get_post_meta( get_the_ID(), 'columns', true );
-			if( ! empty( $column ) ) { echo wp_kses_post( $column ); }
-			?>
+	<dd class="column two row halves">
+			<div class="guttered wide">
+				<?php 
+				$column = get_post_meta( get_the_ID(), 'columns', true );
+				if( ! empty( $column ) ) { echo wp_kses_post( $column ); }
+				?>
+			</div>
+			<div class="column guttered wide">
+				<?php 
+				$column = get_post_meta( get_the_ID(), 'columns-2', true );
+				if( ! empty( $column ) ) { echo wp_kses_post( $column ); }
+				?>
+			</div>
+			<div class="column guttered wide">
+				<?php 
+				$column = get_post_meta( get_the_ID(), 'columns-3', true );
+				if( ! empty( $column ) ) { echo wp_kses_post( $column ); }
+				?>
+			</div>
+			<div class="guttered wide marginalize-top" style="float:none; clear: both;">
+				<?php 
+				$column = get_post_meta( get_the_ID(), 'columns-4', true );
+				if( ! empty( $column ) ) { echo wp_kses_post( $column ); }
+				?>
+			</div>
 		</dd>
 	
 </dl>
 
-<dl id="standard-grid" class="row side-left cf">
+<hr>
+
+<dl id="standard-responsiveness" class="row side-left cf">
 	
 	<dt class="column one guttered wide">
 		<h3>responsiveness</h3>
