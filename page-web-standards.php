@@ -628,10 +628,10 @@ dd .column:nth-of-type(2):before {
 </button>
 <div class="details">
 
-<div class="row side-left">
+<div class="row side-right">
 	
-	<dt class="column one guttered wide">&nbsp;</dt>
-	<dd class="column two guttered wide">
+	<dt class=""></dt>
+	<dd class="column one guttered wide">
 		<?php 
 		$column = get_post_meta( get_the_ID(), 'style', true );
 		if( ! empty( $column ) ) { echo wp_kses_post( $column ); }
