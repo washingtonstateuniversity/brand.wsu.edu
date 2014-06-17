@@ -169,7 +169,7 @@ dd .column:nth-of-type(2):before {
 </button>
 <div class="details">
 
-	<div class="row single gutter wide">
+	<div class="row side-right gutter wide">
 		<div class="column one">
 			<?php 
 			$column = get_post_meta( get_the_ID(), 'column', true );
@@ -211,6 +211,30 @@ dd .column:nth-of-type(2):before {
 			<div class="column">
 				<?php 
 				$column = get_post_meta( get_the_ID(), 'positioning-2', true );
+				if( ! empty( $column ) ) { echo wp_kses_post( $column ); }
+				?>
+			</div>
+		</dd>
+		
+	</dl>
+	
+	<hr>
+	
+	<dl id="standard-scrolling" class="row side-left wide cf">
+		
+		<dt class="column one guttered wide">
+			<h4>Scrolling</h4>
+		</dt>
+		<dd class="row halves column two gutter wide">
+			<div class="column">
+				<?php 
+				$column = get_post_meta( get_the_ID(), 'scrolling-1', true );
+				if( ! empty( $column ) ) { echo wp_kses_post( $column ); }
+				?>
+			</div>
+			<div class="column">
+				<?php 
+				$column = get_post_meta( get_the_ID(), 'scrolling-2', true );
 				if( ! empty( $column ) ) { echo wp_kses_post( $column ); }
 				?>
 			</div>
@@ -311,21 +335,59 @@ dd .column:nth-of-type(2):before {
 </button>
 <div class="details">
 
-	<div class="row single gutter wide">
+	<!--<div class="row side-right gutter wide">
 		<div class="column one">
 			<?php 
 			$column = get_post_meta( get_the_ID(), 'tools', true );
 			if( ! empty( $column ) ) { echo wp_kses_post( $column ); }
 			?>
 		</div>
-	</div>
+	</div>-->
+	
+	<dl class="column-headers row side-left wide cf">
+		
+		<dt class="column one guttered wide">
+			<h4></h4>
+		</dt>
+		<dd class="row halves column two gutter wide">
+			<div class="column">
+				<h4>Full Spine</h4>
+			</div>
+			<div class="column">
+				<h4>Cropped Spine</h4>
+			</div>
+		</dd>
+		
+	</dl>
+	
+	<hr>
+	
+	<dl id="standard-signature" class="row side-left cf">
+		<dt class="column one guttered wide">
+			<h4></h4>
+		</dt>
+		<dd class="row halves column two gutter wide">
+			<div class="column">
+				<?php 
+				$column = get_post_meta( get_the_ID(), 'tools-1', true );
+				if( ! empty( $column ) ) { echo wp_kses_post( $column ); }
+				?>
+			</div>
+			<div class="column">
+				<?php 
+				$column = get_post_meta( get_the_ID(), 'tools-2', true );
+				if( ! empty( $column ) ) { echo wp_kses_post( $column ); }
+				?>
+			</div>
+		</dd>
+	</dl>
 	
 	<hr>
 	
 	<dl id="standard-search" class="row side-left cf">
 		
 		<dt class="column one guttered wide">
-			<h4>Search Tool</h4>
+			<h4>Search</h4>
 		</dt>
 		<dd class="column two guttered wide">
 			<?php 
@@ -341,7 +403,7 @@ dd .column:nth-of-type(2):before {
 	<dl id="standard-contact" class="row side-left cf">
 		
 		<dt class="column one guttered wide">
-			<h4>Contact Tool</h4>
+			<h4>Contact</h4>
 		</dt>
 		<dd class="column two guttered wide">
 			<?php 
@@ -357,7 +419,7 @@ dd .column:nth-of-type(2):before {
 	<dl id="standard-share" class="row side-left cf">
 		
 		<dt class="column one guttered wide">
-			<h4>Share Tool</h4>
+			<h4>Share</h4>
 		</dt>
 		<dd class="column two guttered wide">
 			<?php 
@@ -373,7 +435,7 @@ dd .column:nth-of-type(2):before {
 	<dl id="standard-print" class="row side-left cf">
 		
 		<dt class="column one guttered wide">
-			<h3>Print Tool</h3>
+			<h3>Print</h3>
 		</dt>
 		<dd class="column two guttered wide">
 			<?php 
@@ -397,7 +459,7 @@ dd .column:nth-of-type(2):before {
 </button>
 <div class="details">
 
-	<div class="row single gutter">
+	<div class="row side-right gutter">
 		<div class="column one">
 			<?php 
 			$column = get_post_meta( get_the_ID(), 'navigation', true );
@@ -453,11 +515,14 @@ dd .column:nth-of-type(2):before {
 		<dt class="column one guttered wide">
 			<h3>Offsite Navigation</h3>
 		</dt>
-		<dd class="column two guttered wide">
-			<?php 
-			$column = get_post_meta( get_the_ID(), 'offsitenav-1', true );
-			if( ! empty( $column ) ) { echo wp_kses_post( $column ); }
-			?>
+		<dd class="row halves column two guttered wide">
+			<div class="column">
+				<?php 
+				$column = get_post_meta( get_the_ID(), 'offsitenav-1', true );
+				if( ! empty( $column ) ) { echo wp_kses_post( $column ); }
+				?>
+			</div>
+			<div></div>
 		</dd>
 		
 	</dl>
@@ -477,7 +542,7 @@ dd .column:nth-of-type(2):before {
 	
 	<?php $column = get_post_meta( get_the_ID(), 'footer', true );
 		if( ! empty( $column ) ) : ?>
-			<div class="row single gutter marginalize">
+			<div class="row side-right gutter marginalize">
 				<div class="column one">
 					 <?php echo wp_kses_post( $column ); ?>
 				</div>
@@ -563,15 +628,16 @@ dd .column:nth-of-type(2):before {
 </button>
 <div class="details">
 
-<div class="row single gutter wide">
-	<div class="column one">
+<div class="row side-left">
+	
+	<dt class="column one guttered wide">&nbsp;</dt>
+	<dd class="column two guttered wide">
 		<?php 
-		$column = get_post_meta( get_the_ID(), 'page', true );
+		$column = get_post_meta( get_the_ID(), 'style', true );
 		if( ! empty( $column ) ) { echo wp_kses_post( $column ); }
 		?>
-	</div>
+	</dd>
 </div>
-
 
 </section>
 
@@ -584,7 +650,9 @@ dd .column:nth-of-type(2):before {
 </button>
 <div class="details">
 
-	<div class="row single gutter wide">
+	</dl>
+
+	<div class="row side-right gutter wide">
 		<div class="column one">
 			<?php 
 			$column = get_post_meta( get_the_ID(), 'views', true );
@@ -596,7 +664,7 @@ dd .column:nth-of-type(2):before {
 	<dl class="column-headers row side-left wide cf">
 		
 		<dt class="column one guttered wide">
-			<h3></h3>
+			<h4></h4>
 		</dt>
 		<dd class="row halves column two gutter wide">
 			<div class="column">
@@ -736,7 +804,7 @@ dd .column:nth-of-type(2):before {
 </button>
 <div class="details">
 
-<div class="row single gutter wide">
+<div class="row side-right gutter wide">
 	<div class="column one">
 		<?php 
 		$column = get_post_meta( get_the_ID(), 'page', true );

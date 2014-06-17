@@ -10,3 +10,12 @@ $( document ).ready(function() {
 	});
 
 });
+
+/*
+$( document ).on("ready", "resize" (function() {
+$('.size-gt-medium .main-header, .size-gt-medium .brand-header').hcSticky({
+	    top: 0,
+	    wrapperClassName: 'affixed'
+	});
+});
+*/
