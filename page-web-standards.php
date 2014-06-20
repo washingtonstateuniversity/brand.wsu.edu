@@ -271,11 +271,11 @@ dd .column:nth-of-type(2):before {
 	<dl id="standard-background" class="row side-left cf">
 		
 		<dt class="column one guttered wide">
-			<h4>Background</h4>
+			<h4>Colors</h4>
 		</dt>
 		<dd class="column two guttered wide">
 			<?php 
-			$column = get_post_meta( get_the_ID(), 'background', true );
+			$column = get_post_meta( get_the_ID(), 'colors', true );
 			if( ! empty( $column ) ) { echo wp_kses_post( $column ); }
 			?>
 		</dd>
@@ -459,7 +459,7 @@ dd .column:nth-of-type(2):before {
 </button>
 <div class="details">
 
-	<div class="row side-right gutter">
+	<div class="row side-right gutter wide">
 		<div class="column one">
 			<?php 
 			$column = get_post_meta( get_the_ID(), 'navigation', true );
