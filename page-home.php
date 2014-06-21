@@ -70,7 +70,7 @@ section#our-brand article {
 
 <main>
 
-<section id="our-brand" class="row side-right max-width">
+<section id="our-brand" class="row side-right max-width boundless">
 		
 	<div class="column one">
 		
