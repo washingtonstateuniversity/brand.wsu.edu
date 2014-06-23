@@ -141,7 +141,7 @@ dl.downloads dd:only-of-type a {
 <?php get_template_part('parts/headers'); ?>
 
 
-<section id="university" class="row single marginalize gutter wide">
+<section id="university" class="row single marginalize gutter wide boundless">
 
 <article class="padless">
 
@@ -161,7 +161,7 @@ dl.downloads dd:only-of-type a {
 
 </section>
 
-<section id="campuses" class="row single marginalize gutter wide">
+<section id="campuses" class="row single marginalize gutter wide boundless">
 
 <article class="padless">
 
@@ -188,7 +188,7 @@ dl.downloads dd:only-of-type a {
 
 
 
-<section id="colleges" class="row single marginalize gutter wide clearfix">
+<section id="colleges" class="row single marginalize gutter wide boundless clearfix">
 
 <article class="padless">
 
@@ -216,7 +216,7 @@ dl.downloads dd:only-of-type a {
 
 </section>
 
-<section id="colleges" class="row single marginalize gutter wide ">
+<section id="colleges" class="row single marginalize gutter wide boundless ">
 
 <article class="padless">
 

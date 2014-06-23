@@ -10,14 +10,6 @@
 
 @import url("../spine/style.css");
 
-.row.unbound,
-.unbound {
-	max-width: 100%;
-	}
-.row {
-	max-width: 100%;
-	}
-
 body {
 	color: #5e6a71;
 	font-size: 13px;
@@ -444,11 +436,17 @@ figcaption big {
 
 /* Pages */
 
-.page-id-21 main section { background:
-	url('/wp-content/themes/brand/images/pages/print/brochures.png') 85% top no-repeat,
-	url('/wp-content/themes/brand/images/pages/print/pieces.png') 15px bottom no-repeat }
-.page-id-21 .size-lt-medium main section { background: url('/wp-content/themes/brand/images/pages/print/pieces.png') 15px bottom no-repeat }
-.page-id-21 main section:first-of-type .column.one { padding-bottom: 730px; padding-right: 6em; }
+.page-id-21 main section {
+	background:
+	url('/wp-content/themes/brand/images/pages/print/brochures.png') 95% top no-repeat,
+	url('/wp-content/themes/brand/images/pages/print/pieces.png') 15px bottom no-repeat;
+	}
+.page-id-21 .size-lt-medium main section {
+	background: url('/wp-content/themes/brand/images/pages/print/pieces.png') 15px bottom no-repeat;
+	}
+.page-id-21 main section:first-of-type .column.one {
+	padding-bottom: 730px; padding-right: 6em;
+	}
 .page-id-21 article ul li { padding-bottom: .2em; }
 
 .page-id-24 main section { background:	url('/wp-content/themes/brand/images/pages/misc/presentations.png') 65% -15px no-repeat; min-height: 800px; }

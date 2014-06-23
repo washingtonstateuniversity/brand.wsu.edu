@@ -65,7 +65,7 @@ figcaption big {
 
 <main>
 
-<section id="esteemed" class="row halves photo">
+<section id="esteemed" class="row halves photo boundless">
 
 	<article class="padless">
 
@@ -86,7 +86,7 @@ figcaption big {
 
 </section>
 
-<section id="current" class="row halves photo">
+<section id="current" class="row halves photo boundless">
 
 	<article class="padless">
 
@@ -107,7 +107,7 @@ figcaption big {
 
 </section>
 
-<section id="friendly" class="row halves photo">
+<section id="friendly" class="row halves photo boundless">
 
 	<article class="padless">
 
@@ -128,7 +128,7 @@ figcaption big {
 
 </section>
 
-<section id="impactful" class="row halves photo">
+<section id="impactful" class="row halves photo boundless">
 
 	<article class="padless">
 
@@ -149,7 +149,7 @@ figcaption big {
 
 </section>
 
-<section id="enthusiastic" class="row halves photo">
+<section id="enthusiastic" class="row halves photo boundless">
 
 	<article class="padless">
 
@@ -170,7 +170,7 @@ figcaption big {
 
 </section>
 
-<section id="handson" class="row halves photo">
+<section id="handson" class="row halves photo boundless">
 
 	<article class="padless">
 
@@ -192,7 +192,7 @@ figcaption big {
 </section>
 
 
-<section id="creative" class="row halves photo">
+<section id="creative" class="row halves photo boundless">
 
 	<article class="padless">
 

@@ -48,7 +48,7 @@ main section button.detail {
 
 <?php get_template_part('parts/headers'); ?>
 
-<section id="our-voice" class="row side-right gutter wide alternate">
+<section id="our-voice" class="row side-right gutter wide alternate boundless">
 
 	<div class="column one">
 	<?php while ( have_posts() ) : the_post(); ?>
@@ -70,7 +70,7 @@ main section button.detail {
 
 </section>
 
-<section id="brand-drivers" class="row side-right gutter wide max-width">
+<section id="brand-drivers" class="row side-right gutter wide boundless">
 	<button class="detail unbound recto guttered">
 		<header>
 			<h2>key messages and benefits</h2>

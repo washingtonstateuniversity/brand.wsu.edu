@@ -88,7 +88,7 @@ ol li {
 </section>
 
 
-<section id="attributes" class="row side-right marginalize gutter wide">
+<section id="attributes" class="row side-right marginalize gutter wide boundless">
 	
 	
 	<div class="column one">
@@ -103,7 +103,7 @@ ol li {
 	
 </section>
 
-<section id="applying" class="row side-right unbound recto marginalize gutter wide">
+<section id="applying" class="row side-right unbound recto marginalize gutter wide boundless">
 	
 	
 	<div class="column one">

@@ -44,7 +44,7 @@ main section:first-of-type {
 
 <?php get_template_part('parts/headers'); ?>
 
-<section class="row side-right gutter wide">
+<section class="row side-right gutter wide boundless">
 
 	<div class="column one" style="padding-top: 9.5em;">
 	<article class="padless">
@@ -65,7 +65,7 @@ main section:first-of-type {
 
 </section>
 
-<section class="row single unbound recto">
+<section class="row single unbound recto boundless">
 
 		<header>brand consistency checklist</header>
 		<?php 
