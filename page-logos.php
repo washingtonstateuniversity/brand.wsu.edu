@@ -99,7 +99,7 @@ button.detail header:after {
 
 <section id="wsu-signatures" class="row single max-width">
 	
-	<div class="column one row halves gutter wide">
+	<div class="column one row halves gutter wide max-width">
 	
 		<center style="margin-top: 100px;"><img src="/wp-content/themes/brand/images/pages/logos/wsu-signature-default.svg" class="wsu-signature-default"></center>
 		<center><img src="/wp-content/themes/brand/images/pages/logos/wsu-signature-horizontal.svg" class="wsu-signature-horizontal"></center>
@@ -111,15 +111,15 @@ button.detail header:after {
 		
 		<div class="details">
 		
-		<article class="padless">
+		<article>
 			<hr>
-			<div class="column one">
+			<div class="column one marginalized-top">
 				<?php 
 				$column = get_post_meta( get_the_ID(), 'section-1-1', true );
 				if( ! empty( $column ) ) { echo wp_kses_post( $column ); }
 				?>
 			</div>
-			<div class="column two">
+			<div class="column two marginalized-top">
 				<?php 
 				$column = get_post_meta( get_the_ID(), 'section-1-2', true );
 				if( ! empty( $column ) ) { echo wp_kses_post( $column ); }
@@ -164,7 +164,7 @@ button.detail header:after {
 			
 			<hr style="clear: both;">
 			
-			<section class="row donot clearfix">
+			<section class="row donot clearfix marginalize-sides wide">
 				
 				<span class="x-overunder"></span>
 				
