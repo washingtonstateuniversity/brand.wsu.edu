@@ -436,6 +436,10 @@ figcaption big {
 
 /* Pages */
 
+.page-id-341 h2 {
+	text-transform: none;
+	}
+
 .page-id-21 main section {
 	background:
 	url('/wp-content/themes/brand/images/pages/print/brochures.png') 95% top no-repeat,
@@ -497,7 +501,6 @@ body[class*="faq"] dl dt h4,
 	}
 body[class*="faq"] dl dt:hover h4,
 .page-id-90 dl dt:hover h4 {
-	color: #00a5bd;
 	color: #8f7e35;
 	}
 .page-id-90 dl.disclosed dt {
