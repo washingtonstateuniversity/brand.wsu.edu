@@ -197,7 +197,7 @@ body:not(.category) .main-header sup {
 	}
 .main-header sub {
 	text-transform: lowercase;
-	font-size: 5em;
+	font-size: 5em !important;
 	line-height: 1em;
 	letter-spacing: -5px;
 	padding-bottom: 0;
