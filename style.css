@@ -185,8 +185,6 @@ body:not(.category) .sub-header-default {
 	width: 2000px;
 	background: #5e6a71;
 	display: block;
-	xxheight: 5.34em;
-	border-top: 5px #5e6a71 solid;
 	padding-bottom: 0;
 	}
 .size-lt-large .main-header .header-group {
@@ -195,12 +193,13 @@ body:not(.category) .sub-header-default {
 body:not(.category) .main-header sup {
 	display: none;
 	}
-.main-header sub {
+.main-header sub:not(.x):not(.y):not(.z) {
+	/* :not pseudo classes do add minimal specificity. grrr. */
 	text-transform: lowercase;
-	font-size: 5em !important;
+	font-size: 5em;
 	line-height: 1em;
 	letter-spacing: -5px;
-	padding-bottom: 0;
+	padding-bottom: 5px;
 	padding-left: 0;
 	}
 body:not(.category) .main-header sub {
