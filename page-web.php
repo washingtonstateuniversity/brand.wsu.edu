@@ -439,7 +439,7 @@ pre code {
 	<div class="column two">
 		<article class="marginalize">
 		<header><h2>consistency and flexibility</h2></header>
-		<p>The framework makes every effort to achieve consistent positioning, graphics, and behavior within the Spine's vertical column while at the same time preserving the greatest degree of flexibility besides. For example, with a switch, the Spine supports three kinds of commonly used grids: <strong>Fluid</strong>, <strong>Fixed</strong>, and <strong>Hybrid</strong>. Feel free to click one above and observe the page's behavior as you shrink your window size. The default is "hybrid".</p>
+		<p>The framework makes every effort to achieve consistent positioning, graphics, and behavior within the Spine's vertical column. At the same time it enables great flexibility on the remaining page. For example, with a switch, the Spine supports three kinds of commonly used grids: <strong>Fluid</strong>, <strong>Fixed</strong>, and <strong>Hybrid</strong>. Feel free to click one above and observe the page's behavior as you shrink your window size. The default is "hybrid".</p>
 		</article>
 	</div>
 </section>
