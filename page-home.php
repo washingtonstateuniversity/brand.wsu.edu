@@ -20,7 +20,7 @@ section#our-brand .column.one {
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 	}
-body,main {
+html,body,main {
 	background: black;
 	padding-bottom: 0;
 	}
