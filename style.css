@@ -23,12 +23,13 @@ main {
 	padding-bottom: 150px;
 	}
 main p {
-	line-height: 1.6em;
+	line-height: 1.3rem;
 	}
 	
 h6,h5,h4,h3,h2,h1,big,dt,header,dd a {
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
+	font-weight: normal
 	}
 a, a:link, a:visited:hover, button { color: #C69214; color: #ADA400; }
 
@@ -46,8 +47,8 @@ main ul li {
 	}
 article.intro,
 p.intro {
-	font-size: 1.1em;
-	line-height: 1.5em;
+	font-size: 1.1rem;
+	line-height: 1.5rem;
 	}
 figure {
 	width: 100%;
@@ -62,7 +63,7 @@ button {
 	text-shadow: none;
 	width: 80px;
 	font-weight: normal;
-	font-size: 1em;
+	font-size: 1rem;
 	}
 button.brand-wider,
 dl.downloads dd:only-of-type a.brand-wider,
@@ -77,10 +78,10 @@ button:hover {
 
 /* Blog */
 .column article.post {
-	padding: 2em 0em 2em 4em;
+	padding: 2rem 0rem 2rem 4rem;
 	}
 .column article.post ~ article.post {
-	padding: 0em 0em 2em 4em;
+	padding: 0rem 0rem 2rem 4rem;
 	}
 .article-header cite {
 	display: none;
@@ -113,7 +114,7 @@ button.detail {
 	position: relative;
 	overflow: visible;
 	font-weight: normal;
-	padding: 2em 0px;
+	padding: 2rem 0px;
 	padding-right: 25px;
 	background: url('/wp-content/themes/brand/images/elements/plus-green-er.svg') right center no-repeat;
 	box-sizing: border-box;
@@ -132,7 +133,7 @@ button.detail:hover {
 	background-image: url('/wp-content/themes/brand/images/elements/x-green-er.svg');
 	}
 .size-lt-xlarge button.detail {
-	border-right: 2em transparent solid;
+	border-right: 2rem transparent solid;
 	}
 	
 button.detail header h2 {
@@ -149,9 +150,9 @@ button:focus {
 	}
 
 article :not(p) big {
-	font-size: 1.2em;
+	font-size: 1.2rem;
 	line-height: 1.6em;
-	padding-bottom: 1.3em;
+	padding-bottom: 1.3rem;
 	display: block;
 	}
 
@@ -160,28 +161,25 @@ article :not(p) big {
 	content: attr(data-pagetitle);
 	display: block;
 	}
-.category .mainheader sub:before {
-	
-	}
 body:not(.category) .sup-header-default,
 body:not(.category) .sub-header-default {
 	display: none;
 	}
 .main-header {
 	left: 0;
-	height: 5em;
+	height: 5rem;
 	overflow: hidden;
 	background-color: #5e6a71;
 	padding: 0px;
 	position: relative;
 	z-index: 99164;
-	height: 5em;
+	height: 5rem;
 	}
 .main-header .header-group {
 	bottom: 7px;
 	position: absolute;
 	left: 0;
-	padding-left: 3.9em;
+	padding-left: 3.9rem;
 	width: 2000px;
 	background: #5e6a71;
 	display: block;
@@ -196,7 +194,7 @@ body:not(.category) .main-header sup {
 .main-header sub:not(.x):not(.y):not(.z) {
 	/* :not pseudo classes do add minimal specificity. grrr. */
 	text-transform: lowercase;
-	font-size: 5em;
+	font-size: 5rem;
 	line-height: 1em;
 	letter-spacing: -5px;
 	padding-bottom: 5px;
@@ -212,22 +210,22 @@ body:not(.category) .main-header sub {
 	}
 
 main article { 
-	padding: 0px 2em;
+	padding: 0px 2rem;
 	}
 .spine-page-default .side-right article {
 	padding: 0em;
 	}
 .spine-page-default .side-right .column {
-	padding: 1em 4em 4em 4em;
+	padding: 1rem 4rem 4rem 4rem;
 	}
 .spine-page-default .side-right > .column:first-child {
-	padding-top: 4em;
+	padding-top: 4rem;
 	}
 .spine-page-default section:first-of-type .column.one {
-	padding-top: 9.5em;
+	padding-top: 9.5rem;
 	}
 .column.nav-top {
-	padding-top: 9.5em !important;
+	padding-top: 9.5rem !important;
 	}
 
 main h2 {
@@ -235,19 +233,19 @@ main h2 {
 	}
 main h2 small {
 	color: #5e6a71;
-	font-size: 1em;
+	font-size: 1rem;
 	}
 main h3 {
 	color: #568a90;
-	font-size: 1.3em;
+	font-size: 1.3rem;
 	line-height: 1.4em;
 	}
 main h4 {
 	color: #4F868E;
-	font-size: 1.2em;
+	font-size: 1.2rem;
 	line-height: 1.3em;
-	padding-bottom: .3em;
-	padding-top: .6em;
+	padding-bottom: .3rem;
+	padding-top: .6rem;
 	}
 main h2:not(.not-lowercase),
 main h3:not(.not-lowercase),
@@ -256,10 +254,10 @@ main h5:not(.not-lowercase) {
 	text-transform: lowercase;
 	}
 main h5 {
-	font-size: 1.1em;
+	font-size: 1.1rem;
 	line-height: 1.2em;
-	padding-bottom: .3em;
-	padding-top: .6em;
+	padding-bottom: .3rem;
+	padding-top: .6rem;
 	}
 body.page .article-title {
 	display: none;
@@ -268,7 +266,7 @@ body.page .article-title {
 .intro big,
 p big {
 	color: #4F868E;
-	font-size: 1.6em;
+	font-size: 1.6rem;
 	font-weight: bold;
 	font-weight: normal
 	line-height: 1em;
@@ -279,11 +277,11 @@ p big {
 	text-align: center;
 	padding: 50px 60px;
 	font-style: italic;
-	font-size: 1.4em;
+	font-size: 1.4rem;
 	line-height: 2em;
 	}
 blockquote {
-	margin-left: 2em;
+	margin-left: 2rem;
 	}
 
 blockquote,
@@ -295,7 +293,7 @@ samp {
 	display: block;
 	color: #981e32;
 	font-weight: 700;
-	font-size: .9em;
+	font-size: .9rem;
 	font-style: normal;
 	font-family: "Lucida Grande","Lucida Sans Unicode", "Arial", sans-serif;
 	}
@@ -315,7 +313,7 @@ dl.downloads {
 dl.downloads dt {
 	color: #4F868E;
 	font-weight: normal;
-	font-size: 1em;
+	font-size: 1rem;
 	width: 100%;
 	text-align: center;
 	display: inline-block;
@@ -350,7 +348,7 @@ a.brand-button {
 	}
 a.brand-button {
 	display: inline-block;
-	width: 5.75em;
+	width: 5.75rem;
 	}
 dl.downloads dd a:hover,
 a.brand-button:hover {
@@ -368,34 +366,34 @@ dl.downloads dd:only-of-type a {
 	}
 
 main hr {
-	margin: 1em 2em;
+	margin: 1rem 2rem;
 	height: 1px;
 	display: block;
 	clear: both;
 	}
 
 main .marginalized .column hr {
-	margin: 1em 0;
+	margin: 1rem 0;
 	}
 
 main .wide hr {
 	margin-top: 0;
-	margin-left: 4em;
-	margin-right: 4em;
+	margin-left: 4rem;
+	margin-right: 4rem;
 	}	
 article .unbound.recto {
-	margin-left: -4em;
+	margin-left: -4rem;
 	}
 article .unbound.recto .rebound {
-	padding: 4em;
-	margin: 3em 0px;
+	padding: 4rem;
+	margin: 3rem 0px;
 	}
 
-.em-15 { font-size: 1.5em; }
-.em-2 { font-size: 2em; }
-.em-25 { font-size: 2.5em; }
-.em-3 { font-size: 3em; }
-.em-35 { font-size: 3.5em; }
+.em-15 { font-size: 1.5rem; }
+.em-2 { font-size: 2rem; }
+.em-25 { font-size: 2.5rem; }
+.em-3 { font-size: 3rem; }
+.em-35 { font-size: 3.5rem; }
 
 /* Big Captions */
 
@@ -421,16 +419,23 @@ figcaption big {
 /* Adjustments */
 
 .size-lt-medium .marginalize.wide .column:nth-of-type(1n+1) {
-	padding: 2em;
+	padding: 2rem;
 	}
 .size-lt-medium .gutter.wide .column:nth-of-type(1n+1) {
-	padding-left: 2em;
-	padding-right: 2em;
+	padding-left: 2rem;
+	padding-right: 2rem;
 	}
 	
 /* Blog */
 .categorized dt {
 	display: none;
+	}
+	
+/* Sections */
+
+.section-editorial .column ul {
+	padding-left: 0;
+	padding-right: 0;
 	}
 
 /* Pages */
@@ -448,9 +453,9 @@ figcaption big {
 	background: url('/wp-content/themes/brand/images/pages/print/pieces.png') 15px bottom no-repeat;
 	}
 .page-id-21 main section:first-of-type .column.one {
-	padding-bottom: 730px; padding-right: 6em;
+	padding-bottom: 730px; padding-right: 6rem;
 	}
-.page-id-21 article ul li { padding-bottom: .2em; }
+.page-id-21 article ul li { padding-bottom: .2rem; }
 
 .page-id-24 main section { background:	url('/wp-content/themes/brand/images/pages/misc/presentations.png') 65% -15px no-repeat; min-height: 800px; }
 .page-id-24 main section .column.one { padding-top: 100px; }
@@ -466,12 +471,12 @@ figcaption big {
 	padding-top: 260px;
 	}
 .page-id-90 main dl {
-	margin-left: -2em;
+	margin-left: -2rem;
 	}
 body[class*="faq"] main dl h4,
 .page-id-90 main dl h4 {
-	min-height: 3em;
-	height: 3em;
+	min-height: 3rem;
+	height: 3rem;
 	display: table-cell;
 	vertical-align: middle;
 	padding: 0px;
@@ -508,13 +513,13 @@ body[class*="faq"] dl dt:hover h4,
 body[class*="faq"] dl dd,
 .page-id-90 dl dd {
 	display: none;
-	padding-right: 20em;
-	padding-bottom: 3em;
-	margin-left: 4em;
+	padding-right: 20rem;
+	padding-bottom: 3rem;
+	margin-left: 4rem;
 	}
 .page-id-90 .size-lt-medium dl dt,
 .page-id-90 .size-lt-medium dl dd {
-	padding-right: 4em;
+	padding-right: 4rem;
 	}
 	
 .page-id-101 main section .column.one { padding-top: 95px; }
@@ -523,3 +528,29 @@ body[class*="faq"] dl dd,
 .page-id-103 .size-gt-small main section .column.two { background:	url('/wp-content/themes/brand/images/pages/video/emotion.png') 0 -5px no-repeat; min-height: 600px; }
 
 .page-id-105 .size-gt-small .column.two { background:	url('/wp-content/themes/brand/images/pages/misc/sign.png') 0 -15px no-repeat; height: 600px; }
+
+/* Print */
+
+.print div.affixed,
+.print .main-header.sticky {
+	position: relative !important;
+	left: 0 !important;
+	}
+.print main {
+	max-width: 792px !important;
+	}
+
+@media print {
+
+div.affixed,
+.main-header.sticky {
+	position: relative !important;
+	left: 0 !important;
+	}
+main {
+	
+	max-width: 792px !important;
+	}
+
+	
+	}

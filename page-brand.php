@@ -25,22 +25,27 @@ main section article {
 main section article ul:first-of-type {
 	padding-top: 30px;
 	}
+main section article ul {
+	padding-left: 0;
+	padding-right: 0;
+	}
+
 main section article ul li {
 	list-style: none;
-	font-size: 2em;
+	font-size: 1.7rem;
 	line-height: 1.5em;
 	color: #a6adb0;
-	padding: .1em 0;
+	padding: .1rem 0;
 	margin: 0px;
 	background: none;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 	}
 article ul:first-of-type {
-	margin-left: 4em;
+	margin-left: 4rem;
 	}
 .size-small article ul:first-of-type {
-	margin-left: 2em;
+	margin-left: 2rem;
 	}
 .size-gt-small #we-are article ul { margin-left: 220px; }
 .size-gt-small #we-believe article ul { text-align: right; }
@@ -60,9 +65,9 @@ button.detail::after {
 	}
 	
 .size-gt-medium #we-offer ul li:nth-of-type(1) {  }
-.size-gt-medium #we-offer ul li:nth-of-type(2) { padding-left: 2em; }
-.size-gt-medium #we-offer ul li:nth-of-type(3) { padding-left: 4em; }
-.size-gt-medium #we-offer ul li:nth-of-type(4) { padding-left: 6em; }
+.size-gt-medium #we-offer ul li:nth-of-type(2) { padding-left: 1rem; }
+.size-gt-medium #we-offer ul li:nth-of-type(3) { padding-left: 2rem; }
+.size-gt-medium #we-offer ul li:nth-of-type(4) { padding-left: 3rem; }
 
 </style>
 
