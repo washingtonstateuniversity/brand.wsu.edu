@@ -59,7 +59,7 @@ button.detail header::after {
 
 <?php get_template_part('parts/headers'); ?>
 
-<section id="letterforms" class="row equalize marginalize-bottom boundless">
+<section id="letterforms" class="row equalize pad-bottom boundless">
 
 	<div class="column one four-twelfths" style="text-align: right;">
 		<figure>
@@ -74,7 +74,7 @@ button.detail header::after {
 
 </section>
 
-<section id="stones" class="row single gutter wide marginalize-top alternate boundless">
+<section id="stones" class="row single gutter wide pad-top alternate boundless">
 
 	<div class="column one">
 		<figure>
@@ -104,7 +104,7 @@ button.detail header::after {
 
 <section class="row single alternate boundless">	
 	
-	<div class="column one row halves marginalize gutter wide">
+	<div class="column one row halves pad gutter wide">
 	
 	<button class="detail">
 		<header></header>
@@ -138,7 +138,7 @@ button.detail header::after {
 </section>
 
 
-<section id="webfonts" class="row single gutter wide marginalize">
+<section id="webfonts" class="row single gutter wide pad">
 
 	<div class="column one">
 		<h2>web</h2>

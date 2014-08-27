@@ -113,13 +113,13 @@ button.detail header:after {
 		
 		<article>
 			<hr>
-			<div class="column one marginalized-top">
+			<div class="column one padded-top">
 				<?php 
 				$column = get_post_meta( get_the_ID(), 'section-1-1', true );
 				if( ! empty( $column ) ) { echo wp_kses_post( $column ); }
 				?>
 			</div>
-			<div class="column two marginalized-top">
+			<div class="column two padded-top">
 				<?php 
 				$column = get_post_meta( get_the_ID(), 'section-1-2', true );
 				if( ! empty( $column ) ) { echo wp_kses_post( $column ); }
@@ -164,7 +164,7 @@ button.detail header:after {
 			
 			<hr style="clear: both;">
 			
-			<section class="row donot clearfix marginalize-sides wide">
+			<section class="row donot clearfix pad-sides wide">
 				
 				<span class="x-overunder"></span>
 				
@@ -216,7 +216,7 @@ button.detail header:after {
 	
 	</style>
 
-	<h2 class="marginalized">campus</h2>
+	<h2 class="padded">campus</h2>
 
 	<div class="row halves primary-sigs">
 	
@@ -278,7 +278,7 @@ button.detail header:after {
 		#unit-signatures .unit-sigs div.column { height: 130px; }
 	</style>
 
-	<h2 class="marginalized">unit</h2>
+	<h2 class="padded">unit</h2>
 	
 	<div class="column one row halves gutter wide unit-sigs">
 	
@@ -370,7 +370,7 @@ button.detail header:after {
 		#abbreviated-signatures .abbreviated-vertical img { margin-bottom: 0px; }
 	</style>
 
-	<h2 class="marginalized">abbreviated campus and unit - limited use only</h2>
+	<h2 class="padded">abbreviated campus and unit - limited use only</h2>
 	
 	<div class="column one row halves gutter wide">
 	
@@ -456,7 +456,7 @@ button.detail header:after {
 	
 	</style>
 
-	<h2 class="marginalized">shield and spirit marks</h2>
+	<h2 class="padded">shield and spirit marks</h2>
 	
 	<div class="column one row halves gutter wide">
 
@@ -532,17 +532,17 @@ button.detail header:after {
 
 <section id="social-badges" class="row single max-width">
 	
-	<h2 class="marginalized">social media badges</h2>
+	<h2 class="padded">social media badges</h2>
 	
 	<div class="row halves">
 		<center class="column one">
 			<img src="/wp-content/themes/brand/images/pages/logos/social/wsu-central-social-badge.png" style="width: 150px;">
-			<h3 class="marginalized-top">central channels</h3>
+			<h3 class="padded-top">central channels</h3>
 			<p>WSU Pullman<br> WSU Spokane<br> WSU Tri-Cities<br> WSU Vancouver<br> WSU Global Campus<br> Health Sciences<br> WSU Extension</p>
 		</center>
 		<center class="column two">
 			<img src="/wp-content/themes/brand/images/pages/logos/social/wsu-unit-social-badge.png" style="width: 150px;">
-			<h3 class="marginalized-top">other channels</h3>
+			<h3 class="padded-top">other channels</h3>
 			<p>University units,<br> campaigns,<br> or individuals<br> representing WSU<br> in an official capacity</p>
 		</center>
 	</div>
@@ -581,7 +581,7 @@ button.detail header:after {
 
 <section id="seal" class="row single max-width">
 	
-	<h2 class="marginalized">seal</h2>
+	<h2 class="padded">seal</h2>
 	
 	<center class="column one">
 		<img src="/wp-content/themes/brand/images/pages/logos/wsu-seal.png">

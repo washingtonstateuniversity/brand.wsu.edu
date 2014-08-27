@@ -86,7 +86,7 @@ section#our-brand article {
 	
 </section>
 
-<section class="row marginalize wide">
+<section class="row pad wide">
 
 	<div class="column one">
 

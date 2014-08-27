@@ -644,7 +644,7 @@ $('.secondaries .switch.green-text').click( function() {
 
 </div>
 
-<section id="primary-secondary" class="row side-right marginalize gutter wide">
+<section id="primary-secondary" class="row side-right pad gutter wide">
 	
 	<div class="column one">
 		

@@ -68,7 +68,7 @@ samp ul {
 
 <?php get_template_part('parts/headers'); ?>
 
-<section class="row side-right marginalize gutter wide">
+<section class="row side-right pad gutter wide">
 	
 	<div class="column one">
 		

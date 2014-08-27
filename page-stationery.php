@@ -30,7 +30,7 @@
 
 <?php get_template_part('parts/headers'); ?>
 
-<section class="row side-right marginalize gutter wide">
+<section class="row side-right pad gutter wide">
 
 	<div class="column one">
 		<?php while ( have_posts() ) : the_post(); ?>
@@ -47,7 +47,7 @@
 
 </section>
 
-<section class="row single marginalize gutter wide boundless">
+<section class="row single pad gutter wide boundless">
 
 	<div class="fluid">
 	<div class="row side-right column one">
@@ -71,7 +71,7 @@
 
 </section>
 
-<section class="row single marginalize gutter wide boundless">
+<section class="row single pad gutter wide boundless">
 
 	<div class="column one">
 		<article class="padless">
@@ -82,7 +82,7 @@
 
 </section>
 
-<section class="row single marginalize gutter wide boundless">
+<section class="row single pad gutter wide boundless">
 
 	<div class="column one">
 		<article class="padless">
@@ -93,7 +93,7 @@
 
 </section>
 
-<section class="row single marginalize wide">
+<section class="row single pad wide">
 
 	<div class="column one">
 		<article class="padless">

@@ -54,10 +54,10 @@ figcaption big {
 	background-color: #f4f4f5;
 	}
 	
-.column.two.marginalize {
+.column.two.pad {
 	padding: 2em 2em 6em 0em !important;
 	}
-.size-lt-medium .column.two.marginalize {
+.size-lt-medium .column.two.pad {
 	padding: 2em !important;
 	}
 
@@ -75,7 +75,7 @@ figcaption big {
 	
 	<div class="column one">&nbsp;</div>
 	
-	<div class="column two marginalize">
+	<div class="column two pad">
 	
 		<header class="hidden">esteemed</header>
 		<?php  $column = get_post_meta( get_the_ID(), 'section-1-1', true ); if( ! empty( $column ) ) { echo wp_kses_post( $column ); } ?>
@@ -96,7 +96,7 @@ figcaption big {
 	
 	<div class="column one">&nbsp;</div>
 	
-	<div class="column two marginalize">
+	<div class="column two pad">
 	
 		<header class="hidden">current</header>
 		<?php  $column = get_post_meta( get_the_ID(), 'section-2-1', true ); if( ! empty( $column ) ) { echo wp_kses_post( $column ); } ?>
@@ -117,7 +117,7 @@ figcaption big {
 	
 	<div class="column one">&nbsp;</div>
 	
-	<div class="column two marginalize">
+	<div class="column two pad">
 	
 		<header class="hidden">friendly</header>
 		<?php  $column = get_post_meta( get_the_ID(), 'section-3-1', true ); if( ! empty( $column ) ) { echo wp_kses_post( $column ); } ?>
@@ -138,7 +138,7 @@ figcaption big {
 	
 	<div class="column one">&nbsp;</div>
 	
-	<div class="column two marginalize">
+	<div class="column two pad">
 	
 		<header class="hidden">impactful</header>
 		<?php  $column = get_post_meta( get_the_ID(), 'section-4-1', true ); if( ! empty( $column ) ) { echo wp_kses_post( $column ); } ?>
@@ -159,7 +159,7 @@ figcaption big {
 	
 	<div class="column one">&nbsp;</div>
 	
-	<div class="column two marginalize">
+	<div class="column two pad">
 	
 		<header class="hidden">enthusiastic</header>
 		<?php  $column = get_post_meta( get_the_ID(), 'section-5-1', true ); if( ! empty( $column ) ) { echo wp_kses_post( $column ); } ?>
@@ -180,7 +180,7 @@ figcaption big {
 	
 	<div class="column one">&nbsp;</div>
 	
-	<div class="column two marginalize">
+	<div class="column two pad">
 	
 		<header class="hidden">hands-on</header>
 		<?php  $column = get_post_meta( get_the_ID(), 'section-6-1', true ); if( ! empty( $column ) ) { echo wp_kses_post( $column ); } ?>
@@ -202,7 +202,7 @@ figcaption big {
 	
 	<div class="column one">&nbsp;</div>
 		
-	<div class="column two marginalize">
+	<div class="column two pad">
 	
 		<header class="hidden">hands-on</header>
 		<?php  $column = get_post_meta( get_the_ID(), 'section-7-1', true ); if( ! empty( $column ) ) { echo wp_kses_post( $column ); } ?>
@@ -213,7 +213,7 @@ figcaption big {
 
 </section>
 
-<section id="library" class="row side-right marginalize gutter wide equalize">
+<section id="library" class="row side-right pad gutter wide equalize">
 
 	<style>
 		dl.downloads { height: 50px; }

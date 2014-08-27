@@ -4,7 +4,7 @@
 
 <?php get_template_part('parts/headers'); ?>
 
-<section class="row side-right alternate marginalize gutter wide boundless">
+<section class="row side-right alternate pad gutter wide boundless">
 	
 	<div class="column one nav-top">
 		
@@ -20,7 +20,7 @@
 	
 </section>
 
-<section id="campaign" class="row halves marginalize gutter wide boundless">
+<section id="campaign" class="row halves pad gutter wide boundless">
 
 	<article class="padless">
 		<figure style="text-align: center; padding-top: 40px;" class="twelve-twelfths-max"><img src="/wp-content/themes/brand/images/pages/campaigns/campaign.png"></figure>
@@ -41,7 +41,7 @@
 
 </section>
 
-<section id="anniversary" class="row halves marginalize gutter wide boundless alternate">
+<section id="anniversary" class="row halves pad gutter wide boundless alternate">
 
 	<article class="padless">
 		<div class="column one">

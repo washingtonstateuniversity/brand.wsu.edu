@@ -344,7 +344,7 @@ pre code {
 
 <?php get_template_part('parts/headers'); ?>
 
-<section id="unprecedented" class="row side-right equalize gutter marginalize wide">
+<section id="unprecedented" class="row side-right equalize gutter pad wide">
 
 	<div class="column one">
 
@@ -422,7 +422,7 @@ pre code {
 
 </section>
 
-<section id="spine-behavior" class="row side-left marginalize gutter wide boundless equalize">
+<section id="spine-behavior" class="row side-left pad gutter wide boundless equalize">
 	<style>
 		#spine-behavior .column.one {
 			background: url('/wp-content/themes/brand/images/pages/web/squarecircle.png') right center no-repeat;
@@ -437,16 +437,16 @@ pre code {
 		<br>
 	</div>
 	<div class="column two">
-		<article class="marginalize">
+		<article class="pad">
 		<header><h2>consistency and flexibility</h2></header>
 		<p>The framework makes every effort to achieve consistent positioning, graphics, and behavior within the Spine's vertical column. At the same time it enables great flexibility on the remaining page. For example, with a switch, the Spine supports three kinds of commonly used grids: <strong>Fluid</strong>, <strong>Fixed</strong>, and <strong>Hybrid</strong>. Feel free to click one above and observe the page's behavior as you shrink your window size. The default is "hybrid".</p>
 		</article>
 	</div>
 </section>
 
-<section id="responsive" class="row side-right equalize marginalize gutter wide boundless">
+<section id="responsive" class="row side-right equalize pad gutter wide boundless">
 	<div class="column one">
-	<article class="marginalize">
+	<article class="pad">
 	<header><h2>responsive</h2></header>
 	<p><b>Big brother, meet your kid brother, the smartphone. We love him too.</b> The Spine framework provides a responsive grid that enables sites to flex and fold to fit whatever device. The default width is comprised of fifteen 66 pixel columns, the main content area being twelve of those.</p>
 	</article>
@@ -456,7 +456,7 @@ pre code {
 
 
 
-<section id="spine-colors" class="row side-right equalize reverse marginalize gutter wide boundless">
+<section id="spine-colors" class="row side-right equalize reverse pad gutter wide boundless">
 	<style>
 		#spine-palettes dd { padding: .25em .5em; margin-bottom: .25em; }
 		#spine-palettes dd:hover { color: white; background-color: #A6192E; }
@@ -474,7 +474,7 @@ pre code {
 	</div>
 </section>
 
-<section id="cropping-bleeding" class="row side-right equalize marginalize gutter wide boundless">
+<section id="cropping-bleeding" class="row side-right equalize pad gutter wide boundless">
 	<style>
 	#cropping-bleeding .column.two {
 		background: url('/wp-content/themes/brand/images/pages/web/cropped.png') left -5px no-repeat;
@@ -498,7 +498,7 @@ pre code {
 	
 </section>
 
-<section id="tool-belt" class="row side-left equalize marginalize gutter wide boundless">
+<section id="tool-belt" class="row side-left equalize pad gutter wide boundless">
 	
 	<div class="column one" style="background: url('/wp-content/themes/brand/images/pages/web/tools.png') 70% center no-repeat; background-size: 80% auto;">
 	</div>
@@ -511,7 +511,7 @@ pre code {
 	
 </section>
 
-<section id="spine-sizes" class="row side-right equalize marginalize gutter wide boundless hidden">
+<section id="spine-sizes" class="row side-right equalize pad gutter wide boundless hidden">
 	
 	<div class="column one" style="">
 		<article>
@@ -525,7 +525,7 @@ pre code {
 	
 </section>
 
-<section id="spine-sizes" class="row side-right equalize marginalize gutter wide boundless hidden">
+<section id="spine-sizes" class="row side-right equalize pad gutter wide boundless hidden">
 	
 	<div class="column one" style="">
 		<article>
@@ -539,7 +539,7 @@ pre code {
 	
 </section>
 
-<section id="nesting" class="row halves reverse marginalize gutter wide boundless">
+<section id="nesting" class="row halves reverse pad gutter wide boundless">
 	
 	<div class="twelve-twelfths-max">
 	<div class="column one">
@@ -570,7 +570,7 @@ pre code {
 		}
 	</style>
 	<article class="padless">
-	<div class="column one marginalized">
+	<div class="column one padded">
 		<header><h2>resolution independence</h2></header>
 		<p><b>Those whiskers are ticklish at life size.</b> The Spine is built entirely with vector based graphics so that it is prepared for high resolution displays and zooming.</p>
 	</div>
@@ -597,7 +597,7 @@ pre code {
 	</div>
 </section>
 
-<section id="campus-ready" class="row side-left equalize marginalize gutter wide boundless">
+<section id="campus-ready" class="row side-left equalize pad gutter wide boundless">
 
 	<style>
 		#campus-ready .column.one {
@@ -630,7 +630,7 @@ pre code {
 		These columns have also been equalized with the "equalize" class to allow for aligning background images. Were using "border-box" box-sizing on our columns to enable padding without breaking our responsive math.<hr>
 		<p>Vestibulum cursus ultricies tellus, sed fermentum mauris mattis vitae. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aliquam condimentum ligula ut dictum scelerisque. Aenean mattis erat ac tortor accumsan, vitae tincidunt dui feugiat. Vestibulum hendrerit metus id justo tristique, a pharetra nibh lobortis. Sed eu dolor nec metus blandit egestas ac at elit. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vivamus ac mollis mauris. Sed aliquet ipsum in dapibus euismod.</p></article>
 	</div>
-	<div class="marginalized column two">
+	<div class="padded column two">
 		<article><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dolor neque, scelerisque quis mauris quis, fringilla eleifend est. Phasellus purus leo, commodo sit amet ipsum ac, lacinia auctor nulla. Nam sed nunc fermentum, condimentum ligula sit amet, facilisis urna. Vestibulum pharetra dui turpis, vitae elementum dui gravida in. Quisque ut lectus aliquet, lobortis risus vitae, placerat metus. Duis nisl eros, mattis non fermentum eget, luctus sed tortor. Nunc tempus nulla eget erat ornare, quis mattis turpis tincidunt. Vivamus semper elit at metus consequat, vitae dapibus urna posuere. Nunc iaculis arcu sed ante mollis, vitae varius orci rhoncus. Nullam luctus tristique pretium. Ut tincidunt, velit ullamcorper aliquet molestie, nisl lectus interdum felis, quis blandit nisi tortor non elit. Ut sit amet ipsum consectetur, tempor tellus at, ultrices elit. Sed a mauris enim. Sed vitae odio vestibulum massa vulputate lacinia.</p></article>
 	</div>
 	<div class="column three">
@@ -640,7 +640,7 @@ pre code {
 
 <!--
 
-<section class="row thirds marginalize gutter equalize">
+<section class="row thirds pad gutter equalize">
 	<div class="column one">
 
 	</div>
