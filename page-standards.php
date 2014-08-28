@@ -11,12 +11,12 @@ section.single header {
 	color: #EFF0F1;
 	font-size: 3em;
 	line-height: .8em;
-	padding-left: 1.25em;
+	padding-left: 3.7rem;
 	padding-top: 1em;
 	}
 section.single ol {
 	background: #EFF0F1;
-	padding: 20px 30px;
+	padding: 2rem 4rem;
 	}
 section.single ol li {
 	list-style: none;
@@ -26,7 +26,7 @@ section.single ol li::before {
 	color: #981e32;
 	font-size: 2em;
 	position: absolute;
-	left: 20px;
+	left: 2rem;
 	display: block;
 	}
 section.single ol li:nth-of-type(1)::before { content: "1"; }

@@ -237,12 +237,12 @@ main h2 small {
 	}
 main h3 {
 	color: #568a90;
-	font-size: 1.3rem;
-	line-height: 1.4em;
+	font-size: 1.2rem;
+	line-height: 1.3em;
 	}
 main h4 {
 	color: #4F868E;
-	font-size: 1.2rem;
+	font-size: 1.1rem;
 	line-height: 1.3em;
 	padding-bottom: .3rem;
 	padding-top: .6rem;
@@ -278,7 +278,14 @@ p big {
 	padding: 50px 60px;
 	font-style: italic;
 	font-size: 1.4rem;
-	line-height: 2em;
+	
+	}
+.column aside.striped,
+.column aside.striped p {
+	line-height: 1.3em;
+	}
+.column aside.striped p {
+	padding-bottom: .5rem;
 	}
 blockquote {
 	margin-left: 2rem;
@@ -292,9 +299,8 @@ samp {
 .column aside.striped strong {
 	display: block;
 	color: #981e32;
-	font-weight: 700;
-	font-size: .9rem;
 	font-style: normal;
+	font-size: .9em;
 	font-family: "Lucida Grande","Lucida Sans Unicode", "Arial", sans-serif;
 	}
 
@@ -489,11 +495,11 @@ body[class*="faq"] dl dt,
 .page-id-90 dl dt {
 	background: url('/wp-content/themes/brand/images/elements/plus-green-er.svg') 95% center no-repeat;
 	max-width: 792px;
-	padding-top: 1em;
-	padding-bottom: 1em;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
 	padding-right: 20em;
 	display: block;
-	margin-left: 4em;
+	margin-left: 4rem;
 	}
 body[class*="faq"] dl dt:hover,
 .page-id-90 dl dt:hover {
