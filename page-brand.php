@@ -2,6 +2,12 @@
 
 <script>
 
+$(document).ready(function () {
+	
+	$('.size-gt-small .parallax').scrolly({bgParallax: true});
+
+})
+
 </script>
 
 <style>
@@ -9,14 +15,15 @@
 section figure {
 	background-repeat: no-repeat;
 	height: 400px;
-	xxbackground-attachment: fixed;
+	xxbackground-attachment: scroll;
 	background-position: center center;
-	background-size: 100% auto;
+	xxbackground-size: center top;
+	background-size: cover;
 	}
 .size-lt-medium main section figure {
 	background-repeat: none;
-	background-position: center top;
-	background-size: auto 100%;
+	xxbackground-position: center top;
+	xxbackground-size: auto 100%;
 	}
 main section article {
 	height: 340px;
@@ -75,7 +82,7 @@ button.detail::after {
 
 <section id="we-are" class="row single max-width">
 
-<figure style="background-image: url('/wp-content/themes/brand/images/pages/brand/cougcheek.jpg');">
+<figure style="background-image: url('/wp-content/themes/brand/images/pages/brand/cougcheek.jpg');" class="parallax" data-velocity="-.1">
 	<figcaption><big>we are</big></figcaption>
 </figure>
 
@@ -114,7 +121,7 @@ button.detail::after {
 
 <section id="we-believe" class="row single max-width">
 
-<figure style="background-image: url('/wp-content/themes/brand/images/pages/brand/protection.jpg');">
+<figure style="background-image: url('/wp-content/themes/brand/images/pages/brand/protection.jpg');" class="parallax" data-velocity="-.1" datafit="500">
 	<figcaption><big>we believe in</big></figcaption>
 </figure>
 
@@ -139,7 +146,7 @@ button.detail::after {
 
 <section id="we-emphasize" class="row single max-width">
 
-<figure style="background-image: url('/wp-content/themes/brand/images/pages/brand/shrooms.jpg');">
+<figure style="background-image: url('/wp-content/themes/brand/images/pages/brand/shrooms.jpg');" class="parallax" data-velocity="-.1" datafit="500">
 	<figcaption><big>we emphasize</big></figcaption>
 </figure>
 
@@ -184,7 +191,7 @@ button.detail::after {
 
 <section id="we-offer" class="row single max-width">
 
-<figure style="background-image: url('/wp-content/themes/brand/images/pages/brand/gradjump.jpg');">
+<figure style="background-image: url('/wp-content/themes/brand/images/pages/brand/gradjump.jpg');" class="parallax" data-velocity="-.1" datafit="1000">
 	<figcaption><big>we offer</big></figcaption>
 </figure>
 
@@ -209,7 +216,7 @@ button.detail::after {
 
 <section id="we-promise" class="row single max-width">
 
-<figure style="background-image: url('/wp-content/themes/brand/images/pages/brand/foreground.jpg');">
+<figure style="background-image: url('/wp-content/themes/brand/images/pages/brand/foreground.jpg');" class="parallax" data-velocity="-.1" datafit="1000">
 	<figcaption><big>we promise</big></figcaption>
 </figure>
 
