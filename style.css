@@ -403,7 +403,7 @@ article .unbound.recto .rebound {
 
 /* Big Captions */
 
-figcaption big {
+figcaption {
 	font-size: 100px;
 	letter-spacing: -7px;
 	font-weight: bold;
@@ -415,11 +415,15 @@ figcaption big {
 	bottom: -13px;
 	color: white;
 	}
-.size-lt-medium figcaption big {
+.size-lt-medium figcaption {
 	font-size: 64px;
 	letter-spacing: 0px;
 	line-height: 1em;
 	bottom: -8px;
+	}
+figcaption big {
+	font-size: 1em;
+	font-weight: bold;
 	}
 
 /* Adjustments */
