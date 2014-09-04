@@ -150,9 +150,9 @@ button:focus {
 	}
 
 article :not(p) big {
-	font-size: 1.2rem;
+	font-size: 1.2em;
 	line-height: 1.6em;
-	padding-bottom: 1.3rem;
+	padding-bottom: 1.3em;
 	display: block;
 	}
 
