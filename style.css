@@ -10,6 +10,10 @@
 
 @import url("../spine/style.css");
 
+html {
+	font-size: 13px;
+	}
+
 body {
 	color: #5e6a71;
 	font-size: 13px;
