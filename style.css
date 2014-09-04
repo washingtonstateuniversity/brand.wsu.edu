@@ -27,7 +27,7 @@ main {
 	padding-bottom: 150px;
 	}
 main p {
-	line-height: 1.3rem;
+	line-height: 1.3em;
 	}
 	
 h6,h5,h4,h3,h2,h1,big,dt,header,dd a {
@@ -51,7 +51,7 @@ main ul li {
 	}
 article.intro,
 p.intro {
-	font-size: 1.1em;
+	font-size: 1.1rem;
 	line-height: 1.5em;
 	}
 figure {
