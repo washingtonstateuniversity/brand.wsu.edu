@@ -18,20 +18,11 @@
 	xxpadding-left: 30px;
 	padding-bottom: 30px;
 	}
-.stonesans {
-	
-	}
-xmain section ~ section {
-	background: #f4f4f5;
-	}
 #stones h2 {
 	padding-bottom: 1em;
 	}
 #webfonts strong {
 	color: #4F868E;
-	}
-#webfonts p {
-	padding-bottom: 0;
 	}
 #webfonts h5 {
 	margin-top: 1em;
