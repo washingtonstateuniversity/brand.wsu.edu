@@ -33,7 +33,7 @@ main p {
 h6,h5,h4,h3,h2,h1,big,dt,header,dd a {
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
-	font-weight: normal
+	font-weight: bold;
 	}
 a, a:link, a:visited:hover, button { color: #C69214; color: #ADA400; }
 
@@ -237,16 +237,16 @@ main h2 {
 	}
 main h2 small {
 	color: #5e6a71;
-	font-size: 1rem;
+	font-weight: normal;
 	}
 main h3 {
 	color: #568a90;
-	font-size: 1.2rem;
+	font-size: 1.3rem;
 	line-height: 1.3em;
 	}
 main h4 {
 	color: #4F868E;
-	font-size: 1.1rem;
+	font-size: 1.2rem;
 	line-height: 1.3em;
 	padding-bottom: .3rem;
 	padding-top: .6rem;
@@ -281,12 +281,12 @@ p big {
 	text-align: center;
 	padding: 50px 60px;
 	font-style: italic;
-	font-size: 1.4rem;
+	font-size: 1.6rem;
 	
 	}
 .column aside.striped,
 .column aside.striped p {
-	line-height: 1.3em;
+	line-height: 1.8em;
 	}
 .column aside.striped p {
 	padding-bottom: .5rem;
@@ -304,7 +304,7 @@ samp {
 	display: block;
 	color: #981e32;
 	font-style: normal;
-	font-size: .9em;
+	font-size: 1.3rem;
 	font-family: "Lucida Grande","Lucida Sans Unicode", "Arial", sans-serif;
 	}
 
