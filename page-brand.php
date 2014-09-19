@@ -1,29 +1,15 @@
 <?php get_header(); ?>
 
-<script>
-
-$(document).ready(function () {
-	
-	$('.size-gt-small .parallax').scrolly({bgParallax: true});
-
-})
-
-</script>
-
 <style>
 
 section figure {
 	background-repeat: no-repeat;
-	height: 400px;
-	xxbackground-attachment: scroll;
-	background-position: center center;
-	xxbackground-size: center top;
+	height: 500px;
+	background-position: center 0px;
 	background-size: cover;
 	}
 .size-lt-medium main section figure {
 	background-repeat: none;
-	xxbackground-position: center top;
-	xxbackground-size: auto 100%;
 	}
 main section article {
 	height: 340px;
@@ -82,7 +68,7 @@ button.detail::after {
 
 <section id="we-are" class="row single max-width">
 
-<figure style="background-image: url('/wp-content/themes/brand/images/pages/brand/cougcheek.jpg');" class="parallax" data-velocity="-.1">
+<figure style="background-image: url('/wp-content/themes/brand/images/pages/brand/cougcheek.jpg');" data-0="background-position: center 0px;" data-500="background-position: center -100px;">
 	<figcaption><big>we are</big></figcaption>
 </figure>
 
@@ -121,7 +107,7 @@ button.detail::after {
 
 <section id="we-believe" class="row single max-width">
 
-<figure style="background-image: url('/wp-content/themes/brand/images/pages/brand/protection.jpg');" class="parallax" data-velocity="-.1" datafit="500">
+<figure style="background-image: url('/wp-content/themes/brand/images/pages/brand/protection.jpg');" data-0="background-position: center 0px;" data-top="background-position: center -100px;">
 	<figcaption><big>we believe in</big></figcaption>
 </figure>
 
@@ -146,7 +132,7 @@ button.detail::after {
 
 <section id="we-emphasize" class="row single max-width">
 
-<figure style="background-image: url('/wp-content/themes/brand/images/pages/brand/shrooms.jpg');" class="parallax" data-velocity="-.1" datafit="500">
+<figure style="background-image: url('/wp-content/themes/brand/images/pages/brand/shrooms.jpg');" data-0="background-position: center 100px;" data-top="background-position: center -100px;">
 	<figcaption><big>we emphasize</big></figcaption>
 </figure>
 
@@ -191,7 +177,7 @@ button.detail::after {
 
 <section id="we-offer" class="row single max-width">
 
-<figure style="background-image: url('/wp-content/themes/brand/images/pages/brand/gradjump.jpg');" class="parallax" data-velocity="-.1" datafit="1000">
+<figure style="background-image: url('/wp-content/themes/brand/images/pages/brand/gradjump.jpg');" data-0="background-position: center 0px;" data-top="background-position: center -100px;">
 	<figcaption><big>we offer</big></figcaption>
 </figure>
 
@@ -216,7 +202,7 @@ button.detail::after {
 
 <section id="we-promise" class="row single max-width">
 
-<figure style="background-image: url('/wp-content/themes/brand/images/pages/brand/foreground.jpg');" class="parallax" data-velocity="-.1" datafit="1000">
+<figure style="background-image: url('/wp-content/themes/brand/images/pages/brand/foreground.jpg');" data-0="background-position: center 100px;" data-top="background-position: center -100px;">
 	<figcaption><big>we promise</big></figcaption>
 </figure>
 
@@ -240,5 +226,9 @@ button.detail::after {
 </section>
 
 </main>
+
+<script type="text/javascript">
+    var s = skrollr.init();
+</script>
 
 <?php get_footer(); ?>
