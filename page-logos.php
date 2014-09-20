@@ -2,6 +2,18 @@
 
 <script>
 
+
+	$(document).ready(function() {
+	
+		$('.unfold').on('click', function(){
+			
+			$(this).parents('.folded').toggleClass('unfolded');
+			
+		});
+	
+	});
+	
+
 </script>
 
 <style>
@@ -21,7 +33,7 @@ img.wsu-signature-vertical { width: 264px; }
 main section:nth-of-type(even) {
 	background-color: #EFF0F1;
 	}
-div.details .column {
+.details .column:not(.short) {
 	padding-bottom: 40px;
 	}
 .detailed button.detail {
@@ -84,7 +96,17 @@ button.detail header:after {
 	background: url('/wp-content/themes/brand/images/elements/x-not-75.png') center top repeat-y;
 	background-size: 550px auto;
 	}
-
+.clear-both {
+	clear: both;
+	}
+.unfold,
+.fold {
+	color: #ADA400;
+	}
+.unfold:hover,
+.fold:hover {
+	color: #8f7e35;
+	}
 	
 /* temp */
 .row.halves .column:nth-of-type(odd) {
@@ -328,19 +350,26 @@ button.detail header:after {
 		
 			<hr>
 			
-			<div class="column one">
+			<div class="column one padded-bottom short">
 				<?php 
 				$column = get_post_meta( get_the_ID(), 'section-3-1', true );
 				if( ! empty( $column ) ) { echo wp_kses_post( $column ); }
 				?>
 			</div>			
-			<div class="column two">
+			<div class="column two padded-bottom short">
 				<?php 
 				$column = get_post_meta( get_the_ID(), 'section-3-2', true );
 				if( ! empty( $column ) ) { echo wp_kses_post( $column ); }
 				?>
 			</div>
 			
+			<dl id="unit-logo-form" class="folded clear-both">
+				<dt class="unfold padded-sides wide">Request a Signature</dt>
+				<dd class="folds padded-sides wide left-trans-white-trans">
+					<?php gravity_form(1, false, false, false, '', false); ?>
+				</dd>
+			</dl>
+<br>
 			<hr>
 			<div class="column three">
 				<?php 
@@ -439,6 +468,13 @@ button.detail header:after {
 				if( ! empty( $column ) ) { echo wp_kses_post( $column ); }
 				?>
 			</div>
+			
+			<dl id="unit-logo-form" class="folded clear-both">
+				<dt class="unfold padded-sides wide padded-bottom short">Request a Signature</dt>
+				<dd class="folds padded-sides wide left-trans-white-trans">
+					<?php gravity_form(2, false, false, false, '', false); ?>
+				</dd>
+			</dl>
 			
 		</div><!--/.details-->
 

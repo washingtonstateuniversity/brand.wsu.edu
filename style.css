@@ -452,6 +452,17 @@ figcaption big {
 	padding-right: 0;
 	}
 
+.unfold:hover,
+.fold:hover {
+	cursor: pointer;
+	}
+.folded .folds {
+	display: none;
+	}
+.unfolded .folds {
+	display: block;
+	}
+
 /* Pages */
 
 .page-id-341 main h2 {
