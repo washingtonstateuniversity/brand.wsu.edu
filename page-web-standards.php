@@ -623,7 +623,7 @@ dd .column:nth-of-type(2):before {
 
 </section>
 
-<h2>The Page</h2>
+<h2 class="guttered wide">The Page</h2>
 
 <section id="fonts-colors">
 
