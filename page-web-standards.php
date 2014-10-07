@@ -27,7 +27,7 @@ xxhr {
 main hr {
 	box-sizing: border-box;
 	max-width: 792px;
-	margin: 2em 4em;
+	margin: 2rem 4rem;
 	}
 main hr.topheavy {
 	margin-bottom: 1em;
@@ -101,12 +101,12 @@ a[href*="#index"] ~ ul li .active a:hover {
 button.detail {
 	text-align: left;
 	background-position: 770px center;
-	text-indent: 4em;
+	text-indent: 4rem;
 	xpadding-bottom: 0;
 	}
 main > h2 {
 	color: white;
-	padding: 1em 2em;
+	padding: 1rem 2rem;
 	background: #8d959a;
 	}
 dd .column:nth-of-type(1):before,
@@ -125,8 +125,8 @@ dd .column:nth-of-type(2):before {
 	}
 	
 .size-lt-medium main hr {
-	margin-left: 2em;
-	margin-right: 2em;
+	margin-left: 2rem;
+	margin-right: 2rem;
 	}
 .size-lt-medium main > h2 {
 	padding-left: 32px;
@@ -136,12 +136,18 @@ dd .column:nth-of-type(2):before {
 	}
 .size-lt-medium .gutter.wide .column,
 .size-lt-medium .guttered.wide {
-	padding-left: 2em;
-	padding-right: 2em;
+	padding-left: 2rem;
+	padding-right: 2rem;
 	}
 .size-lt-medium button.detail {
-	text-indent: 2em;
+	text-indent: 2rem;
 	}
+	
+.spacing-loose .column.two.guttered.narrow {
+	padding-left: 1rem;
+	padding-right: 1rem;
+	}
+	
 </style>
 
 <main>
@@ -158,7 +164,7 @@ dd .column:nth-of-type(2):before {
 
 </section>
 
-<h2>The Spine</h2>
+<h2 class="guttered wide">The Spine</h2>
 
 <section id="column">
 
@@ -169,7 +175,7 @@ dd .column:nth-of-type(2):before {
 </button>
 <div class="details">
 
-	<div class="row side-right pad-sides wide">
+	<div class="row side-right guttered wide">
 		<div class="column one">
 			<?php 
 			$column = get_post_meta( get_the_ID(), 'column', true );
@@ -178,12 +184,12 @@ dd .column:nth-of-type(2):before {
 		</div>
 	</div>
 	
-	<dl class="column-headers row side-left wide cf">
+	<dl class="column-headers row side-left cf">
 		
-		<dt class="column one padded-sides wide">
+		<dt class="column one guttered narrow">
 			<h4></h4>
 		</dt>
-		<dd class="row halves column two pad-sides wide">
+		<dd class="row halves column two gutter narrow">
 			<div class="column">
 				<h4>Full Spine</h4>
 			</div>
@@ -198,10 +204,10 @@ dd .column:nth-of-type(2):before {
 	
 	<dl id="standard-positioning" class="row side-left wide cf">
 		
-		<dt class="column one padded-sides wide">
+		<dt class="column one guttered narrow">
 			<h4>Positioning</h4>
 		</dt>
-		<dd class="row halves column two pad-sides wide">
+		<dd class="row halves column two gutter narrow">
 			<div class="column">
 				<?php 
 				$column = get_post_meta( get_the_ID(), 'positioning-1', true );
@@ -222,10 +228,10 @@ dd .column:nth-of-type(2):before {
 	
 	<dl id="standard-scrolling" class="row side-left wide cf">
 		
-		<dt class="column one padded-sides wide">
+		<dt class="column one guttered narrow">
 			<h4>Scrolling</h4>
 		</dt>
-		<dd class="row halves column two pad-sides wide">
+		<dd class="row halves column two gutter narrow">
 			<div class="column">
 				<?php 
 				$column = get_post_meta( get_the_ID(), 'scrolling-1', true );
@@ -246,10 +252,10 @@ dd .column:nth-of-type(2):before {
 	
 	<dl id="standard-dimensions" class="row side-left wide cf">
 		
-		<dt class="column one padded-sides wide">
+		<dt class="column one guttered narrow">
 			<h4>Dimensions</h4>
 		</dt>
-		<dd class="row halves column two pad-sides wide">
+		<dd class="row halves column two gutter narrow">
 			<div class="column">
 				<?php 
 				$column = get_post_meta( get_the_ID(), 'dimensions-1', true );
@@ -270,10 +276,10 @@ dd .column:nth-of-type(2):before {
 	
 	<dl id="standard-background" class="row side-left cf">
 		
-		<dt class="column one padded-sides wide">
+		<dt class="column one guttered narrow">
 			<h4>Colors</h4>
 		</dt>
-		<dd class="column two padded-sides wide">
+		<dd class="column two guttered narrow">
 			<?php 
 			$column = get_post_meta( get_the_ID(), 'colors', true );
 			if( ! empty( $column ) ) { echo wp_kses_post( $column ); }
@@ -286,10 +292,10 @@ dd .column:nth-of-type(2):before {
 	
 	<dl id="standard-edges" class="row side-left cf">
 		
-		<dt class="column one padded-sides wide">
+		<dt class="column one guttered narrow">
 			<h4>Edges</h4>
 		</dt>
-		<dd class="row halves column two pad-sides wide">
+		<dd class="row halves column two gutter narrow">
 			<div class="column">
 				<?php 
 				$column = get_post_meta( get_the_ID(), 'edges-1', true );
@@ -310,10 +316,10 @@ dd .column:nth-of-type(2):before {
 	
 	<dl id="standard-signature" class="row side-left cf">
 		
-		<dt class="column one padded-sides wide">
+		<dt class="column one guttered narrow">
 			<h4>WSU Signature</h4>
 		</dt>
-		<dd class="column two padded-sides wide">
+		<dd class="column two guttered narrow">
 			<?php 
 			$column = get_post_meta( get_the_ID(), 'signature', true );
 			if( ! empty( $column ) ) { echo wp_kses_post( $column ); }
@@ -346,10 +352,10 @@ dd .column:nth-of-type(2):before {
 	
 	<dl class="column-headers row side-left wide cf">
 		
-		<dt class="column one padded-sides wide">
+		<dt class="column one guttered narrow">
 			<h4></h4>
 		</dt>
-		<dd class="row halves column two pad-sides wide">
+		<dd class="row halves column two gutter narrow">
 			<div class="column">
 				<h4>Full Spine</h4>
 			</div>
@@ -363,10 +369,10 @@ dd .column:nth-of-type(2):before {
 	<hr>
 	
 	<dl id="standard-signature" class="row side-left cf">
-		<dt class="column one padded-sides wide">
+		<dt class="column one guttered narrow">
 			<h4></h4>
 		</dt>
-		<dd class="row halves column two pad-sides wide">
+		<dd class="row halves column two gutter narrow">
 			<div class="column">
 				<?php 
 				$column = get_post_meta( get_the_ID(), 'tools-1', true );
@@ -386,10 +392,10 @@ dd .column:nth-of-type(2):before {
 	
 	<dl id="standard-search" class="row side-left cf">
 		
-		<dt class="column one padded-sides wide">
+		<dt class="column one guttered narrow">
 			<h4>Search</h4>
 		</dt>
-		<dd class="column two padded-sides wide">
+		<dd class="column two guttered narrow">
 			<?php 
 			$column = get_post_meta( get_the_ID(), 'search', true );
 			if( ! empty( $column ) ) { echo wp_kses_post( $column ); }
@@ -402,10 +408,10 @@ dd .column:nth-of-type(2):before {
 	
 	<dl id="standard-contact" class="row side-left cf">
 		
-		<dt class="column one padded-sides wide">
+		<dt class="column one guttered narrow">
 			<h4>Contact</h4>
 		</dt>
-		<dd class="column two padded-sides wide">
+		<dd class="column two guttered narrow">
 			<?php 
 			$column = get_post_meta( get_the_ID(), 'contact', true );
 			if( ! empty( $column ) ) { echo wp_kses_post( $column ); }
@@ -418,10 +424,10 @@ dd .column:nth-of-type(2):before {
 	
 	<dl id="standard-share" class="row side-left cf">
 		
-		<dt class="column one padded-sides wide">
+		<dt class="column one guttered narrow">
 			<h4>Share</h4>
 		</dt>
-		<dd class="column two padded-sides wide">
+		<dd class="column two guttered narrow">
 			<?php 
 			$column = get_post_meta( get_the_ID(), 'share', true );
 			if( ! empty( $column ) ) { echo wp_kses_post( $column ); }
@@ -434,10 +440,10 @@ dd .column:nth-of-type(2):before {
 	
 	<dl id="standard-print" class="row side-left cf">
 		
-		<dt class="column one padded-sides wide">
+		<dt class="column one guttered narrow">
 			<h3>Print</h3>
 		</dt>
-		<dd class="column two padded-sides wide">
+		<dd class="column two guttered narrow">
 			<?php 
 			$column = get_post_meta( get_the_ID(), 'print', true );
 			if( ! empty( $column ) ) { echo wp_kses_post( $column ); }
@@ -459,7 +465,7 @@ dd .column:nth-of-type(2):before {
 </button>
 <div class="details">
 
-	<div class="row side-right pad-sides wide">
+	<div class="row side-right guttered narrow">
 		<div class="column one">
 			<?php 
 			$column = get_post_meta( get_the_ID(), 'navigation', true );
@@ -470,10 +476,10 @@ dd .column:nth-of-type(2):before {
 	
 	<dl class="column-headers row side-left wide cf">
 		
-		<dt class="column one padded-sides wide">
+		<dt class="column one guttered narrow">
 			<h4></h4>
 		</dt>
-		<dd class="row halves column two pad-sides wide">
+		<dd class="row halves column two gutter narrow">
 			<div class="column">
 				<h4>Full Spine</h4>
 			</div>
@@ -488,10 +494,10 @@ dd .column:nth-of-type(2):before {
 	
 	<dl id="standard-sitenav" class="row side-left cf">
 		
-		<dt class="column one padded-sides wide">
+		<dt class="column one guttered narrow">
 			<h3>Site Navigation</h3>
 		</dt>
-		<dd class="row halves column two pad-sides wide">
+		<dd class="row halves column two gutter narrow">
 			<div class="column">
 				<?php 
 				$column = get_post_meta( get_the_ID(), 'sitenav-1', true );
@@ -512,10 +518,10 @@ dd .column:nth-of-type(2):before {
 	
 	<dl id="standard-offsitenav" class="row side-left cf">
 		
-		<dt class="column one padded-sides wide">
+		<dt class="column one guttered narrow">
 			<h3>Offsite Navigation</h3>
 		</dt>
-		<dd class="row halves column two padded-sides wide">
+		<dd class="row halves column two guttered narrow">
 			<div class="column">
 				<?php 
 				$column = get_post_meta( get_the_ID(), 'offsitenav-1', true );
@@ -551,10 +557,10 @@ dd .column:nth-of-type(2):before {
 	
 	<dl class="column-headers row side-left wide cf">
 		
-		<dt class="column one padded-sides wide">
+		<dt class="column one guttered narrow">
 			<h3></h3>
 		</dt>
-		<dd class="row halves column two pad-sides wide">
+		<dd class="row halves column two gutter narrow">
 			<div class="column">
 				<h4>Full Spine</h4>
 			</div>
@@ -569,10 +575,10 @@ dd .column:nth-of-type(2):before {
 	
 	<dl id="standard-socialmedialinks" class="row side-left cf">
 		
-		<dt class="column one padded-sides wide">
+		<dt class="column one guttered narrow">
 			<h3>Social Media Links</h3>
 		</dt>
-		<dd class="row halves column two pad-sides wide">
+		<dd class="row halves column two gutter narrow">
 			<div class="column">
 				<?php 
 				$column = get_post_meta( get_the_ID(), 'socialmedialinks-1', true );
@@ -593,10 +599,10 @@ dd .column:nth-of-type(2):before {
 	
 	<dl id="standard-footer" class="row side-left cf">
 		
-		<dt class="column one padded-sides wide">
+		<dt class="column one guttered narrow">
 			<h3>Footer Links</h3>
 		</dt>
-		<dd class="row halves column two pad-sides wide">
+		<dd class="row halves column two gutter narrow">
 			<div class="column">
 				<?php 
 				$column = get_post_meta( get_the_ID(), 'footer-1', true );
@@ -631,7 +637,7 @@ dd .column:nth-of-type(2):before {
 <div class="row side-right">
 	
 	<dt class=""></dt>
-	<dd class="column one padded-sides wide">
+	<dd class="column one guttered narrow">
 		<?php 
 		$column = get_post_meta( get_the_ID(), 'style', true );
 		if( ! empty( $column ) ) { echo wp_kses_post( $column ); }
@@ -652,7 +658,7 @@ dd .column:nth-of-type(2):before {
 
 	</dl>
 
-	<div class="row side-right pad-sides wide">
+	<div class="row side-right gutter wide">
 		<div class="column one">
 			<?php 
 			$column = get_post_meta( get_the_ID(), 'views', true );
@@ -663,10 +669,10 @@ dd .column:nth-of-type(2):before {
 	
 	<dl class="column-headers row side-left wide cf">
 		
-		<dt class="column one padded-sides wide">
+		<dt class="column one guttered narrow">
 			<h4></h4>
 		</dt>
-		<dd class="row halves column two pad-sides wide">
+		<dd class="row halves column two gutter narrow">
 			<div class="column">
 				<h4>Full Spine</h4>
 			</div>
@@ -681,10 +687,10 @@ dd .column:nth-of-type(2):before {
 	
 	<dl id="standard-smallview" class="row side-left cf">
 		
-		<dt class="column one padded-sides wide">
+		<dt class="column one guttered narrow">
 			<h4>Small View</h4>
 		</dt>
-		<dd class="row halves column two pad-sides wide">
+		<dd class="row halves column two gutter narrow">
 			<div class="column">
 				<?php 
 				$column = get_post_meta( get_the_ID(), 'smallview-1', true );
@@ -705,10 +711,10 @@ dd .column:nth-of-type(2):before {
 	
 	<dl id="standard-mediumview" class="row side-left cf">
 		
-		<dt class="column one padded-sides wide">
+		<dt class="column one guttered narrow">
 			<h4>Medium View</h4>
 		</dt>
-		<dd class="row halves column two pad-sides wide">
+		<dd class="row halves column two gutter narrow">
 			<div class="column">
 				<?php 
 				$column = get_post_meta( get_the_ID(), 'mediumview-1', true );
@@ -729,10 +735,10 @@ dd .column:nth-of-type(2):before {
 	
 	<dl id="standard-largeview" class="row side-left cf">
 		
-		<dt class="column one padded-sides wide">
+		<dt class="column one guttered narrow">
 			<h4>Large View</h4>
 		</dt>
-		<dd class="row halves column two pad-sides wide">
+		<dd class="row halves column two gutter narrow">
 			<div class="column">
 				<?php 
 				$column = get_post_meta( get_the_ID(), 'largeview-1', true );
@@ -763,10 +769,10 @@ dd .column:nth-of-type(2):before {
 	
 	<dl id="standard-xlargeview" class="row side-left cf">
 		
-		<dt class="column one padded-sides wide">
+		<dt class="column one guttered narrow">
 			<h4>X-Large View</h4>
 		</dt>
-		<dd class="column two padded-sides wide">
+		<dd class="column two guttered narrow">
 				<?php 
 				$column = get_post_meta( get_the_ID(), 'xlargeview', true );
 				if( ! empty( $column ) ) { echo wp_kses_post( $column ); }
@@ -779,10 +785,10 @@ dd .column:nth-of-type(2):before {
 	
 	<dl id="standard-printview" class="row side-left cf">
 		
-		<dt class="column one padded-sides wide">
+		<dt class="column one guttered narrow">
 			<h4>Print View</h4>
 		</dt>
-		<dd class="column two padded-sides wide">
+		<dd class="column two guttered narrow">
 			<?php 
 			$column = get_post_meta( get_the_ID(), 'printview', true );
 			if( ! empty( $column ) ) { echo wp_kses_post( $column ); }
@@ -804,7 +810,7 @@ dd .column:nth-of-type(2):before {
 </button>
 <div class="details">
 
-<div class="row side-right pad-sides wide">
+<div class="row side-right gutter narrow">
 	<div class="column one">
 		<?php 
 		$column = get_post_meta( get_the_ID(), 'page', true );
@@ -817,29 +823,29 @@ dd .column:nth-of-type(2):before {
 
 <dl id="standard-columns" class="row side-left cf">
 	
-	<dt class="column one padded-sides wide">
+	<dt class="column one guttered narrow">
 		<h3>columns</h3>
 	</dt>
 	<dd class="column two row halves">
-			<div class="padded-sides wide">
+			<div class="guttered narrow">
 				<?php 
 				$column = get_post_meta( get_the_ID(), 'columns', true );
 				if( ! empty( $column ) ) { echo wp_kses_post( $column ); }
 				?>
 			</div>
-			<div class="column padded-sides wide">
+			<div class="column guttered narrow">
 				<?php 
 				$column = get_post_meta( get_the_ID(), 'columns-2', true );
 				if( ! empty( $column ) ) { echo wp_kses_post( $column ); }
 				?>
 			</div>
-			<div class="column padded-sides wide">
+			<div class="column guttered narrow">
 				<?php 
 				$column = get_post_meta( get_the_ID(), 'columns-3', true );
 				if( ! empty( $column ) ) { echo wp_kses_post( $column ); }
 				?>
 			</div>
-			<div class="padded-sides wide pad-top" style="float:none; clear: both;">
+			<div class="guttered narrow pad-top" style="float:none; clear: both;">
 				<?php 
 				$column = get_post_meta( get_the_ID(), 'columns-4', true );
 				if( ! empty( $column ) ) { echo wp_kses_post( $column ); }
@@ -853,10 +859,10 @@ dd .column:nth-of-type(2):before {
 
 <dl id="standard-responsiveness" class="row side-left cf">
 	
-	<dt class="column one padded-sides wide">
+	<dt class="column one guttered narrow">
 		<h3>responsiveness</h3>
 	</dt>
-	<dd class="column two padded-sides wide">
+	<dd class="column two guttered narrow">
 			<?php 
 			$column = get_post_meta( get_the_ID(), 'responsiveness', true );
 			if( ! empty( $column ) ) { echo wp_kses_post( $column ); }
