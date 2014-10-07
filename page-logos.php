@@ -107,6 +107,13 @@ button.detail header:after {
 .fold:hover {
 	color: #8f7e35;
 	}
+dt.unfold button {
+	width: 100%;
+	opacity: .75;
+	}
+dt.unfold button:hover {
+	opacity: 1;
+	}
 	
 /* temp */
 .row.halves .column:nth-of-type(odd) {
@@ -364,7 +371,7 @@ button.detail header:after {
 			</div>
 			
 			<dl id="unit-logo-form" class="folded clear-both">
-				<dt class="unfold padded-sides wide">Request a Signature</dt>
+				<dt class="unfold padded-sides wide"><button class="brand-button">Request a Unit Signature</button></dt>
 				<dd class="folds padded-sides wide left-trans-white-trans">
 					<?php gravity_form(1, false, false, false, '', false); ?>
 				</dd>
@@ -470,7 +477,7 @@ button.detail header:after {
 			</div>
 			
 			<dl id="unit-logo-form" class="folded clear-both">
-				<dt class="unfold padded-sides wide padded-bottom short">Request a Signature</dt>
+				<dt class="unfold padded-sides wide padded-bottom short"><button class="brand-button">Request an Abbreviated Signature</button></dt>
 				<dd class="folds padded-sides wide left-trans-white-trans">
 					<?php gravity_form(2, false, false, false, '', false); ?>
 				</dd>
@@ -515,12 +522,27 @@ button.detail header:after {
 				$column = get_post_meta( get_the_ID(), 'section-5-1', true );
 				if( ! empty( $column ) ) { echo wp_kses_post( $column ); }
 				?>
+				
+
 			</div>
 			<div class="column two">
 				<?php 
 				$column = get_post_meta( get_the_ID(), 'section-5-2', true );
 				if( ! empty( $column ) ) { echo wp_kses_post( $column ); }
 				?>
+			</div>
+			
+			<hr>
+			
+			<div class="column three">
+				<?php 
+				$column = get_post_meta( get_the_ID(), 'section-5-3', true );
+				if( ! empty( $column ) ) { echo wp_kses_post( $column ); }
+				?>
+			</div>
+			
+			<div class="column four">
+				<p><img src="/wp-content/themes/brand/images/pages/logos/figures/clearspace-shield.png"></p>
 			</div>
 			
 			<hr>
