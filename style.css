@@ -161,14 +161,6 @@ article :not(p) big {
 	}
 
 /* Main Headers */
-.main-header sub:before {
-	content: attr(data-pagetitle);
-	display: block;
-	}
-body:not(.category) .sup-header-default,
-body:not(.category) .sub-header-default {
-	display: none;
-	}
 .main-header {
 	left: 0;
 	height: 5rem;
@@ -178,6 +170,15 @@ body:not(.category) .sub-header-default {
 	position: relative;
 	z-index: 99164;
 	height: 5rem;
+	font-weight: normal;
+	}
+.main-header sub:before {
+	content: attr(data-pagetitle);
+	display: block;
+	}
+body:not(.category) .sup-header-default,
+body:not(.category) .sub-header-default {
+	display: none;
 	}
 .main-header .header-group {
 	bottom: 7px;
@@ -346,7 +347,8 @@ dl.downloads dd:nth-of-type(even) {
 	}
 
 dl.downloads dd a,
-a.brand-button {
+a.brand-button,
+.brand-button {
 	width: 75%;
 	color: #ADA400;
 	display: inline-block;
@@ -361,7 +363,8 @@ a.brand-button {
 	width: 5.75rem;
 	}
 dl.downloads dd a:hover,
-a.brand-button:hover {
+a.brand-button:hover,
+.brand-button:hover {
 	color: white;
 	background: #ADA400;
 	border-color: #ADA400;
@@ -451,7 +454,9 @@ figcaption big {
 	padding-left: 0;
 	padding-right: 0;
 	}
-
+dt.unfold {
+	display: block;
+	}
 .unfold:hover,
 .fold:hover {
 	cursor: pointer;
