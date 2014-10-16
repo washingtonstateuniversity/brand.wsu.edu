@@ -410,50 +410,6 @@ dd.bg-white {
 	bottom: 15px;
 	}
 	
-.orange-2:before {
-	content: "2";
-	}
-.orange-3:before {
-	content: "3";
-	}
-.orange-4:before {
-	content: "4";
-	}
-.orange-5:before {
-	content: "5";
-	}
-.orange-6:before {
-	content: "6";
-	}
-.orange-7:before {
-	content: "7";
-	}
-.orange-8:before {
-	content: "8";
-	}
-
-.orange-2 {
-	background-color: #e98338 !important;
-	}
-.orange-3 {
-	background-color: #ee8540 !important;
-	}
-.orange-4 {
-	background-color: #ee8540 !important;
-	}
-.orange-5 {
-	background-color: #f6861f !important;
-	}
-.orange-6 {
-	background-color: #f67e0f !important;
-	}
-.orange-7 {
-	background-color: #e58e3c !important;
-	}
-.orange-8 {
-	background-color: #d38235 !important;
-	}
-
 </style>
 
 <script>
@@ -474,13 +430,6 @@ $('dl.specs').click(function() {
 $("dl.specs dd.hex").click(function(e) {
     e.stopPropagation();
 	});
-	
-$('.orange-er-back').click(function () {
-  var classes = ['orange-2','orange-3','orange-4','orange-5','orange-6','orange-7','orange-8'];
-  $(this).each(function(){
-    this.className = classes[($.inArray(this.className, classes)+1)%classes.length];
-  });
-});
 
 
 /* $('.secondaries .switch.yellow-text').click( function() {
