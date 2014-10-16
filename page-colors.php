@@ -397,18 +397,6 @@ dd.bg-white {
 	transition: background 0.2s ease;
 	background: red;
 	}
-
-.orange-2:before,
-.orange-3:before,
-.orange-4:before,
-.orange-5:before,
-.orange-6:before,
-.orange-7:before,
-.orange-8:before {
-	position: absolute;
-	display: block;
-	bottom: 15px;
-	}
 	
 </style>
 
