@@ -8,8 +8,6 @@ $(document).ready(function() {
 	    top: 0,
 	    wrapperClassName: 'affixed'
 	});
-	
-	
 
 });
 
@@ -25,7 +23,7 @@ $(window).load(function() {
 		$(window).scrollTop(pos-65);
 	}
 	
-	});
+});
 
 (function ( $, window, document, undefined ) {
     // Create the defaults once
