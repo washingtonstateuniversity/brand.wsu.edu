@@ -8,6 +8,13 @@ $( document ).ready(function() {
 	    top: 0,
 	    wrapperClassName: 'affixed'
 	});
+	
+	var hash = window.location.hash;
+	var pos = $(window).scrollTop();
+	if(hash != "") {
+		$(hash).addClass("detailed");
+		$(window).scrollTop(pos+100);
+	}
 
 });
 
