@@ -1,4 +1,4 @@
-$( document ).ready(function() {
+$(document).ready(function() {
 
 	$('button.detail').click( function() { $(this).parents('section').toggleClass('detailed'); });
 	
@@ -9,15 +9,23 @@ $( document ).ready(function() {
 	    wrapperClassName: 'affixed'
 	});
 	
+	
+
+});
+
+$(window).load(function() {
+	
 	var hash = window.location.hash;
 	var pos = $(window).scrollTop();
 	if ( hash == "#detailed" ) {
+		$('button.detail').parents('section').addClass('detailed');
+		} 
 	if(hash != "") {
 		$(hash).addClass("detailed");
-		$(window).scrollTop(pos+100);
+		$(window).scrollTop(pos-65);
 	}
-
-});
+	
+	});
 
 (function ( $, window, document, undefined ) {
     // Create the defaults once
