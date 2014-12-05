@@ -14,15 +14,20 @@ $(document).ready(function() {
 $(window).load(function() {
 	
 	var hash = window.location.hash;
-	var pos = $(window).scrollTop();
-	if ( hash == "#detailed" ) {
-		$('button.detail').parents('section').addClass('detailed');
-		} 
-	if(hash != "") {
-		$(hash).addClass("detailed");
-		$(window).scrollTop(pos-65);
-	}
 	
+	if ( hash == "#detailed" ) {
+		
+		$('button.detail').parents('section').addClass('detailed');
+		
+		}
+		
+	if ( hash != "" ) {
+	
+		$(hash).addClass("detailed");
+		$(window).scrollTop($(hash).offset().top-65);
+
+	} 
+
 });
 
 (function ( $, window, document, undefined ) {
