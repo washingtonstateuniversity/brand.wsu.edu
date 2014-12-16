@@ -419,44 +419,6 @@ $("dl.specs dd.hex").click(function(e) {
     e.stopPropagation();
 	});
 
-
-/* $('.secondaries .switch.yellow-text').click( function() {
-	if ( $('figure.yellow-back').hasClass('visible') ) {
-		$('#gray-palette figure').clone().addClass('yellow-gray').appendTo('center');
-	} else {
-		$('.yellow-gray').remove();
-	}
-	$('figure.yellow-back').toggleClass('visible invisible');
-});
-
-$('.secondaries .switch.blue-text').click( function() {
-	if ( $('figure.blue-back').hasClass('visible') ) {
-		$('#gray-palette figure').clone().addClass('blue-gray').appendTo('center');
-	} else {
-		$('.blue-gray').remove();
-	}
-	$('figure.blue-back').toggleClass('visible invisible');
-});
-
-$('.secondaries .switch.orange-text').click( function() {
-	if ( $('figure.orange-back').hasClass('visible') ) {
-		$('#gray-palette figure').clone().addClass('orange-gray').appendTo('center');
-	} else {
-		$('.orange-gray').remove();
-	}
-	$('figure.orange-back').toggleClass('visible invisible');
-});
-
-$('.secondaries .switch.green-text').click( function() {
-	if ( $('figure.green-back').hasClass('visible') ) {
-		$('#gray-palette figure').clone().addClass('green-gray').appendTo('center');
-	} else {
-		$('.green-gray').remove();
-	}
-	$('figure.green-back').toggleClass('visible invisible');
-}); */
-
-
 });
 
 
@@ -484,7 +446,7 @@ $('.secondaries .switch.green-text').click( function() {
 		</dl>
 		<dl class="tertiaries">
 			<dt></dt>
-			<dd class="switch off accents" onclick="$('figure.color').toggleClass('unaccented accented');" title="show hide accents">acc<span class="darkest-text">é</span>nts</dd>
+			<dd class="switch off accents" onclick="$('figure.color').toggleClass('unaccented accented');" title="show hide accents">accents</dd>
 			<dd class="switch off values" onclick="$('figure.color').toggleClass('unvalued valued');" title="show hide values"><span class="darkest-text">v</span><span class="darker-text">a</span><span class="dark-text">l</span><span class="gray-text">u</span><span class="light-text">e</span><span class="lighter-text">s</span></dd>
 		</dl>
 		<dl class="backgrounds size-gt-medium-only">
