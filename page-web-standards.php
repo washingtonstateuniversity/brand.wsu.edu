@@ -272,22 +272,6 @@ dd .column:nth-of-type(2):before {
 		
 	</dl>
 	
-	<!--<hr>
-	
-	<dl id="standard-background" class="row side-left cf">
-		
-		<dt class="column one guttered narrow">
-			<h4>Colors</h4>
-		</dt>
-		<dd class="column two guttered narrow">
-			<?php 
-			$column = get_post_meta( get_the_ID(), 'colors', true );
-			if( ! empty( $column ) ) { echo wp_kses_post( $column ); }
-			?>
-		</dd>
-		
-	</dl>-->
-	
 	<hr>
 	
 	<dl id="standard-edges" class="row side-left cf">
@@ -340,53 +324,15 @@ dd .column:nth-of-type(2):before {
 	</header>
 </button>
 <div class="details">
-
-	<!--<div class="row side-right gutter wide">
+	
+		<div class="row side-right guttered wide">
 		<div class="column one">
 			<?php 
-			$column = get_post_meta( get_the_ID(), 'tools', true );
-			if( ! empty( $column ) ) { echo wp_kses_post( $column ); }
-			?>
-		</div>
-	</div>-->
-	
-	<dl class="column-headers row side-left wide cf">
-		
-		<dt class="column one guttered narrow">
-			<h4></h4>
-		</dt>
-		<dd class="row halves column two gutter narrow">
-			<div class="column">
-				<h4>Full Spine</h4>
-			</div>
-			<div class="column">
-				<h4>Cropped Spine</h4>
-			</div>
-		</dd>
-		
-	</dl>
-	
-	<hr>
-	
-	<dl id="standard-signature" class="row side-left cf">
-		<dt class="column one guttered narrow">
-			<h4></h4>
-		</dt>
-		<dd class="row halves column two gutter narrow">
-			<div class="column">
-				<?php 
 				$column = get_post_meta( get_the_ID(), 'tools-1', true );
 				if( ! empty( $column ) ) { echo wp_kses_post( $column ); }
 				?>
-			</div>
-			<div class="column">
-				<?php 
-				$column = get_post_meta( get_the_ID(), 'tools-2', true );
-				if( ! empty( $column ) ) { echo wp_kses_post( $column ); }
-				?>
-			</div>
-		</dd>
-	</dl>
+		</div>
+	</div>
 	
 	<hr>
 	
