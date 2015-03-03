@@ -39,10 +39,9 @@ section:not(.detailed) button.detail header::after {
 			?>
 		</div>
 		<div class="column two">
-			<?php 
-			$column = get_post_meta( get_the_ID(), 'section-3-2', true );
-			if( ! empty( $column ) ) { echo wp_kses_post( $column ); }
-			?>
+			<figure>
+				<img src="/wp-content/themes/brand/images/125th/125th-marks.png" alt="125th Marks" width="100%" />
+			</figure>
 		</div>
 		
 		<button class="detail" alt="125th mark details">
@@ -59,7 +58,7 @@ section:not(.detailed) button.detail header::after {
 		</div>
 		<div class="column two">
 			<figure>
-				<img src="/wp-content/themes/brand/images/125th/125th-marks.png" alt="examples-appropriate" width="100%" />
+				<img src="/wp-content/themes/brand/images/125th/125th-clearspace.png" alt="125th Clearspace" width="100%" />
 			</figure>
 		</div>
 		
