@@ -57,12 +57,13 @@ section:not(.detailed) button.detail header::after {
 			?>
 		</div>
 		<div class="column two">
+			<h3>Clear space</h3>
 			<figure>
 				<img src="/wp-content/themes/brand/images/125th/125th-clearspace.png" alt="125th Clearspace" width="100%" />
 			</figure>
 		</div>
 		
-		<div class="column one">
+		<div class="column one clear-both">
 			<h3>Appropriate Variants</h3>
 			<figure style="text-align: center; padding-top: 40px;" class="twelve-twelfths-max">
 				<img src="/wp-content/themes/brand/images/125th/125th-alts.png" alt="125th Marks" width="100%" />
