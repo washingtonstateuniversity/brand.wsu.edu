@@ -135,7 +135,7 @@ button.detail header::after {
 		<h2>web</h2>
 		<?php 
 		$column = get_post_meta( get_the_ID(), 'section-3-1', true );
-		if( ! empty( $column ) ) { echo $column; }
+		if( ! empty( $column ) ) { echo wp_kses_post( $column ); }
 		?>
 	</div>
 

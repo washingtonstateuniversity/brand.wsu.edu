@@ -94,7 +94,7 @@ button.detail::after {
 		<div class="column one">
 			<?php 
 			$column = get_post_meta( get_the_ID(), 'section-1-1', true );
-			if( ! empty( $column ) ) { echo $column; }
+			if( ! empty( $column ) ) { echo wp_kses_post( $column ); }
 			?>
 		</div>
 	</div><!--/.details-->
