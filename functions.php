@@ -11,9 +11,6 @@ function brand_scripts() {
 }
 
 add_action('wp_head','assign_jquery');
-
-function assign_jquery()
-{
-$output="<script>$=jQuery;</script>";
-echo $output;
+function assign_jquery() {
+	echo '<script> $=jQuery;</script>';
 }
