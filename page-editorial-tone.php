@@ -59,7 +59,7 @@ main section button.detail {
 		
 	<?php endwhile; ?>
 	</div>
-	<div class="column two padless">
+	<div class="column two gutterless">
 		<aside class="serif striped">
 		<?php 
 		$column = get_post_meta( get_the_ID(), 'section-1-2', true );
