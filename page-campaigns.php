@@ -13,7 +13,7 @@ section:not(.detailed) button.detail header::after {
 
 <?php get_template_part('parts/headers'); ?>
 
-<section class="row side-right alternate pad gutter wide boundless">
+<section class="row side-right alternate pad-ends gutter wide boundless">
 	
 	<div class="column one nav-top">
 		
@@ -29,9 +29,8 @@ section:not(.detailed) button.detail header::after {
 	
 </section>
 
-<section id="anniversary" class="row halves pad gutter wide boundless">
+<section id="anniversary" class="row halves pad-ends gutter boundless">
 
-	<article class="padless">
 		<div class="column one" style="padding-bottom: 0px;">
 			<?php 
 			$column = get_post_meta( get_the_ID(), 'section-3-1', true );
@@ -44,7 +43,7 @@ section:not(.detailed) button.detail header::after {
 			</figure>
 		</div>
 		
-		<button class="detail" alt="125th mark details">
+		<button class="detail" alt="125th mark details" style="max-width: 792px;">
 			<header></header>
 		</button>
 		
@@ -76,7 +75,7 @@ section:not(.detailed) button.detail header::after {
 			</figure>
 		</div>
 		
-		<div class="row single column padded wide">
+		<div class="row single column pad-ends wide">
 			<?php 
 			$column = get_post_meta( get_the_ID(), 'section-5-1', true );
 			if( ! empty( $column ) ) { echo wp_kses_post( $column ); }
@@ -97,14 +96,11 @@ section:not(.detailed) button.detail header::after {
 		</div>
 		
 		</div><!-- /details -->
-		
-	</article>
-	
+			
 </section>
 
-<section id="campaign" class="row halves pad gutter wide boundless alternate">
+<section id="campaign" class="row halves pad-ends gutter boundless alternate">
 
-	<article class="padless">
 		<figure style="text-align: center; padding-top: 40px;" class="twelve-twelfths-max"><img src="/wp-content/themes/brand/images/pages/campaigns/campaign.png"></figure>
 		<div class="column one">
 			<?php 
@@ -119,7 +115,6 @@ section:not(.detailed) button.detail header::after {
 				<dd><a href="/wp-content/themes/brand/downloads/campaign/WSU-Campaign-Guide.pdf">PDF</a></dd>
 			</dl>
 		</div>
-	</article>
 
 </section>
 
