@@ -95,7 +95,7 @@ button.detail header::after {
 
 <section class="row single alternate boundless">	
 	
-	<div class="column one row halves pad gutter wide">
+	<div class="column one row halves pad-ends gutter wide">
 	
 	<button class="detail">
 		<header></header>
@@ -129,7 +129,7 @@ button.detail header::after {
 </section>
 
 
-<section id="webfonts" class="row single gutter wide pad">
+<section id="webfonts" class="row single gutter wide pad-ends">
 
 	<div class="column one">
 		<h2>web</h2>

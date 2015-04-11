@@ -344,7 +344,7 @@ pre code {
 
 <?php get_template_part('parts/headers'); ?>
 
-<section id="unprecedented" class="row side-right equalize gutter pad wide">
+<section id="unprecedented" class="row side-right equalize gutter pad-ends wide">
 
 	<div class="column one">
 
@@ -422,7 +422,7 @@ pre code {
 
 </section>
 
-<section id="spine-behavior" class="row side-left pad gutter wide boundless equalize">
+<section id="spine-behavior" class="row side-left pad-ends gutter wide boundless equalize">
 	<style>
 		#spine-behavior .column.one {
 			background: url('/wp-content/themes/brand/images/pages/web/squarecircle.png') right center no-repeat;
@@ -444,7 +444,7 @@ pre code {
 	</div>
 </section>
 
-<section id="responsive" class="row side-right equalize pad gutter wide boundless">
+<section id="responsive" class="row side-right equalize pad-ends gutter wide boundless">
 	<div class="column one">
 	<article class="pad">
 	<header><h2>responsive</h2></header>
@@ -456,7 +456,7 @@ pre code {
 
 
 
-<section id="spine-colors" class="row side-right equalize reverse pad gutter wide boundless">
+<section id="spine-colors" class="row side-right equalize reverse pad-ends gutter wide boundless">
 	<style>
 		#spine-palettes dd { padding: .25em .5em; margin-bottom: .25em; }
 		#spine-palettes dd:hover { color: white; background-color: #A6192E; }
@@ -474,7 +474,7 @@ pre code {
 	</div>
 </section>
 
-<section id="cropping-bleeding" class="row side-right equalize pad gutter wide boundless">
+<section id="cropping-bleeding" class="row side-right equalize pad-ends gutter wide boundless">
 	<style>
 	#cropping-bleeding .column.two {
 		background: url('/wp-content/themes/brand/images/pages/web/cropped.png') left -5px no-repeat;
@@ -498,7 +498,7 @@ pre code {
 	
 </section>
 
-<section id="tool-belt" class="row side-left equalize pad gutter wide boundless">
+<section id="tool-belt" class="row side-left equalize pad-ends gutter wide boundless">
 	
 	<div class="column one" style="background: url('/wp-content/themes/brand/images/pages/web/tools.png') 70% center no-repeat; background-size: 80% auto;">
 	</div>
@@ -511,7 +511,7 @@ pre code {
 	
 </section>
 
-<section id="spine-sizes" class="row side-right equalize pad gutter wide boundless hidden">
+<section id="spine-sizes" class="row side-right equalize pad-ends gutter wide boundless hidden">
 	
 	<div class="column one" style="">
 		<article>
@@ -525,7 +525,7 @@ pre code {
 	
 </section>
 
-<section id="spine-sizes" class="row side-right equalize pad gutter wide boundless hidden">
+<section id="spine-sizes" class="row side-right equalize pad-ends gutter wide boundless hidden">
 	
 	<div class="column one" style="">
 		<article>
@@ -539,7 +539,7 @@ pre code {
 	
 </section>
 
-<section id="nesting" class="row halves reverse pad gutter wide boundless">
+<section id="nesting" class="row halves reverse pad-ends gutter wide boundless">
 	
 	<div class="twelve-twelfths-max">
 	<div class="column one">
@@ -548,7 +548,7 @@ pre code {
 		<p>Related articles and images can be nested so that they hang together in groups when the page flexes and folds for mobile. Notice how these nested color blocks hang together if you pull your browser window to a narrow width.</p>
 		</article>
 	</div>
-	<div class="column two row thirds padless boundless">
+	<div class="column two row thirds gutterless padless boundless">
 		<div class="column one orange-back four-twelfths-tall"></div>
 		<div class="column two green-back four-twelfths-tall"></div>
 		<div class="column three blue-back four-twelfths-tall"></div>
@@ -569,7 +569,7 @@ pre code {
 		background-size: 300%;
 		}
 	</style>
-	<article class="padless">
+	<article class="gutterless">
 	<div class="column one padded">
 		<header><h2>resolution independence</h2></header>
 		<p><b>Those whiskers are ticklish at life size.</b> The Spine is built entirely with vector based graphics so that it is prepared for high resolution displays and zooming.</p>
@@ -597,7 +597,7 @@ pre code {
 	</div>
 </section>
 
-<section id="campus-ready" class="row side-left equalize pad gutter wide boundless">
+<section id="campus-ready" class="row side-left equalize pad-ends gutter wide boundless">
 
 	<style>
 		#campus-ready .column.one {
@@ -640,7 +640,7 @@ pre code {
 
 <!--
 
-<section class="row thirds pad gutter equalize">
+<section class="row thirds pad-ends gutter equalize">
 	<div class="column one">
 
 	</div>
