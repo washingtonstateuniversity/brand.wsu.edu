@@ -223,7 +223,7 @@ dl.downloads dd:only-of-type a {
 	<div class="column one">
 		
 		<h3 style="display: inline-block; padding-right: 30px;">stationery and business cards </h3>
-		<a class="brand-button" href="http://publishing.wsu.edu/onlineorders.html" title="order stationery and business cards">Order</a>
+		<a class="brand-button" href="https://ucomm.wsu.edu/place-an-order/" title="order stationery and business cards">Order</a>
 
 		
 	</div>

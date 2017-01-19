@@ -172,7 +172,7 @@ samp ul {
 	<article class="padless">
 		<div class="column one row halves gutter wide">
 		
-		<p class="guttered wide">Consult <a href="http://www.merriam-webster.com/"><em>Merriam-Webster's Collegiate Dictionary</em></a> for spelling and word breaks. American spellings are preferred over British.</p>
+		<p class="guttered wide">Consult <a href="https://www.merriam-webster.com/"><em>Merriam-Webster's Collegiate Dictionary</em></a> for spelling and word breaks. American spellings are preferred over British.</p>
 		<div class="column one">
 			<?php 
 			$column = get_post_meta( get_the_ID(), 'section-5-1', true );
