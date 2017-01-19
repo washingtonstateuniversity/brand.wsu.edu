@@ -631,51 +631,6 @@ pre code {
 	</div>
 </section>
 
-<!--
-
-<section class="row thirds pad-ends gutter equalize">
-	<div class="column one">
-
-	</div>
-	<div class="column two">
-
-	</div>
-	<div class="column three">
-		<ul>
-		<li id="folio-samples"><strong>Large Formats: </strong>990 Container by <a href="#" data-max="max-default">default</a> with maximum widths of <a href="#" data-max="max-1188">1188</a>, <a href="#" data-max="max-1386">1386</a>, <a href="#" data-max="max-1584">1584</a>, <a href="#" data-max="max-1782">1782</a>, <a href="#" data-max="max-1980">1980</a></li>
-		</ul>
-	</div>
-</section>
-
-<section class="row triptych">
-	<div class="column one"></div>
-	<div class="column two"></div>
-	<div class="column three"></div>
-</section>
-
-
-
-<section id="color-backs" class="row halves nest xxnote">
-	
-	<div class="column one row quarters">
-		<div class="column one orange-back"></div>
-		<div class="column two green-back"></div>
-		<div class="column three blue-back"></div>
-		<div class="column four yellow-back"></div>
-	</div>
-	<div class="column one row halves">
-		<div class="column one crimson-back"></div>
-		<div class="column two gray-back"></div>
-	</div>
-	
-</section>
-
-
-
-<footer class="local">
-	<br>	
-</footer>-->
-
 </main><!--/#page-->
 
 <?php get_footer(); ?>
