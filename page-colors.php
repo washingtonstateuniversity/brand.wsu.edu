@@ -631,4 +631,4 @@ $("dl.specs dd.hex").click(function(e) {
 
 </main>
 
-<?php get_footer(); ?>
+<?php get_footer();

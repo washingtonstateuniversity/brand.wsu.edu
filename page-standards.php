@@ -77,4 +77,4 @@ main section:first-of-type {
 
 </main>
 
-<?php get_footer(); ?>
+<?php get_footer();

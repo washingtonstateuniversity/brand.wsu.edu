@@ -231,4 +231,4 @@ button.detail::after {
     var s = skrollr.init();
 </script>
 
-<?php get_footer(); ?>
+<?php get_footer();

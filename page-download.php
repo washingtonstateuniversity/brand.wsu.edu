@@ -236,4 +236,4 @@ dl.downloads dd:only-of-type a {
 
 </main>
 
-<?php get_footer(); ?>
+<?php get_footer();
