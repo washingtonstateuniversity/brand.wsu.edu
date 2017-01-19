@@ -303,7 +303,7 @@ pre code {
 	$('.spine-colors button').on('click', function() {
 		var color = $(this).attr('data-color');
 		$('html').removeClass('spokane-signtaure tricities-signature vancouver-signature globalcampus-signature extension-signature');
-		$('#spine').removeClass('white lightest lighter light gray dark darker darkest crimson transparent');
+		$('#spine').removeClass('white dark darker');
 		$('#spine').addClass(color);
 		return false;
 	});
@@ -320,7 +320,7 @@ pre code {
 	
 	// Change Campus
 	$('.spine-campuses button').on('click', function() {
-		$('#spine').removeClass('white lightest lighter light gray dark darker darkest crimson transparent');
+		$('#spine').removeClass('white dark darker');
 		var campus = $(this).attr('data-campus');
 			campus = campus + '-signature';
 		$('html').removeClass('spokane-signtaure tricities-signature vancouver-signature globalcampus-signature extension-signature').addClass(campus);
@@ -363,16 +363,9 @@ pre code {
 		
 			<dl class="spine-colors clearfix">
 				<dt>spine colors <a class="info" href="#spine-colors">info</a></dt>
-				<dd><button class="white-back gray-text inset" data-color="white">Default</button></dd> 
-				<dd><button class="lightest-back gray-text inset" data-color="lightest">Lightest</button></dd>
-				<dd><button class="lighter-back gray-text" data-color="lighter">Lighter</button></dd>
-				<dd><button class="light-back lightly-text" data-color="light">Light</button></dd>
-				<dd><button class="gray-back lighter-text" data-color="gray">Gray</button></dd>
+				<dd><button class="white-back gray-text inset" data-color="white">Default</button></dd>
 				<dd><button class="dark-back lighter-text" data-color="dark">Dark</button></dd>
 				<dd><button class="darker-back light-text" data-color="darker">Darker</button></dd>
-				<dd><button class="darkest-back light-text" data-color="darkest">Darkest</button></dd>
-				<dd><button class="crimson-back white-text" data-color="crimson">Crimson</button></dd>
-				<dd><button class="transparent-back gray-lighter-text" data-color="transparent">Transparent</button></dd>
 			</dl>
 			
 			<dl class="spine-column-options clearfix">
