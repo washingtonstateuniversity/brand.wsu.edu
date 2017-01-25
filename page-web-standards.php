@@ -821,4 +821,4 @@ dd .column:nth-of-type(2):before {
 
 </main>
 
-<?php get_footer(); ?>
+<?php get_footer();

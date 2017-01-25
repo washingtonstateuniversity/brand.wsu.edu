@@ -41,7 +41,7 @@
 	</div>
 	<div class="column two">
 		<dl class="downloads" style="margin-top: 70px;">
-			<dd><a href="http://publishing.wsu.edu/onlineorders.html">order</a></dd>
+			<dd><a href="https://ucomm.wsu.edu/place-an-order/">order</a></dd>
 		</dl>
 	</div>
 
@@ -105,4 +105,4 @@
 
 </main>
 
-<?php get_footer(); ?>
+<?php get_footer();

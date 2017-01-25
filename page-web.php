@@ -303,7 +303,7 @@ pre code {
 	$('.spine-colors button').on('click', function() {
 		var color = $(this).attr('data-color');
 		$('html').removeClass('spokane-signtaure tricities-signature vancouver-signature globalcampus-signature extension-signature');
-		$('#spine').removeClass('white lightest lighter light gray dark darker darkest crimson transparent');
+		$('#spine').removeClass('white dark darker');
 		$('#spine').addClass(color);
 		return false;
 	});
@@ -320,7 +320,7 @@ pre code {
 	
 	// Change Campus
 	$('.spine-campuses button').on('click', function() {
-		$('#spine').removeClass('white lightest lighter light gray dark darker darkest crimson transparent');
+		$('#spine').removeClass('white dark darker');
 		var campus = $(this).attr('data-campus');
 			campus = campus + '-signature';
 		$('html').removeClass('spokane-signtaure tricities-signature vancouver-signature globalcampus-signature extension-signature').addClass(campus);
@@ -363,16 +363,9 @@ pre code {
 		
 			<dl class="spine-colors clearfix">
 				<dt>spine colors <a class="info" href="#spine-colors">info</a></dt>
-				<dd><button class="white-back gray-text inset" data-color="white">Default</button></dd> 
-				<dd><button class="lightest-back gray-text inset" data-color="lightest">Lightest</button></dd>
-				<dd><button class="lighter-back gray-text" data-color="lighter">Lighter</button></dd>
-				<dd><button class="light-back lightly-text" data-color="light">Light</button></dd>
-				<dd><button class="gray-back lighter-text" data-color="gray">Gray</button></dd>
+				<dd><button class="white-back gray-text inset" data-color="white">Default</button></dd>
 				<dd><button class="dark-back lighter-text" data-color="dark">Dark</button></dd>
 				<dd><button class="darker-back light-text" data-color="darker">Darker</button></dd>
-				<dd><button class="darkest-back light-text" data-color="darkest">Darkest</button></dd>
-				<dd><button class="crimson-back white-text" data-color="crimson">Crimson</button></dd>
-				<dd><button class="transparent-back gray-lighter-text" data-color="transparent">Transparent</button></dd>
 			</dl>
 			
 			<dl class="spine-column-options clearfix">
@@ -561,7 +554,7 @@ pre code {
 <section id="resolution" class="row side-right gutter wide boundless">
 	<style>
 	#resolution .column.two {
-		background: url('http://repo.wsu.edu/spine/1/marks/wsu-signature-vertical.svg') center center no-repeat;
+		background: url('https://repo.wsu.edu/spine/1/marks/wsu-signature-vertical.svg') center center no-repeat;
 		background-size: auto; 
 		}
 	#resolution:hover .column.two {
@@ -601,12 +594,12 @@ pre code {
 
 	<style>
 		#campus-ready .column.one {
-			background: url('http://repo.wsu.edu/spine/1/marks/wsu-spokane-signature-vertical.svg') center center no-repeat;
+			background: url('https://repo.wsu.edu/spine/1/marks/wsu-spokane-signature-vertical.svg') center center no-repeat;
 			background-size: auto; 
 			}
 		#campus-ready::before,
 		#campus-ready:hover .column.one {
-			background: url('http://repo.wsu.edu/spine/1/marks/wsu-globalcampus-signature-vertical.svg') center center no-repeat;
+			background: url('https://repo.wsu.edu/spine/1/marks/wsu-globalcampus-signature-vertical.svg') center center no-repeat;
 			}
 	</style>
 	
@@ -638,51 +631,6 @@ pre code {
 	</div>
 </section>
 
-<!--
-
-<section class="row thirds pad-ends gutter equalize">
-	<div class="column one">
-
-	</div>
-	<div class="column two">
-
-	</div>
-	<div class="column three">
-		<ul>
-		<li id="folio-samples"><strong>Large Formats: </strong>990 Container by <a href="#" data-max="max-default">default</a> with maximum widths of <a href="#" data-max="max-1188">1188</a>, <a href="#" data-max="max-1386">1386</a>, <a href="#" data-max="max-1584">1584</a>, <a href="#" data-max="max-1782">1782</a>, <a href="#" data-max="max-1980">1980</a></li>
-		</ul>
-	</div>
-</section>
-
-<section class="row triptych">
-	<div class="column one"></div>
-	<div class="column two"></div>
-	<div class="column three"></div>
-</section>
-
-
-
-<section id="color-backs" class="row halves nest xxnote">
-	
-	<div class="column one row quarters">
-		<div class="column one orange-back"></div>
-		<div class="column two green-back"></div>
-		<div class="column three blue-back"></div>
-		<div class="column four yellow-back"></div>
-	</div>
-	<div class="column one row halves">
-		<div class="column one crimson-back"></div>
-		<div class="column two gray-back"></div>
-	</div>
-	
-</section>
-
-
-
-<footer class="local">
-	<br>	
-</footer>-->
-
 </main><!--/#page-->
 
-<?php get_footer(); ?>
+<?php get_footer();
