@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 
 <script>
-	
+
 
 </script>
 
@@ -44,7 +44,7 @@ main section h2 {
 #university h2 small span {
 	padding-right: 7px;
 	}
-	
+
 #campuses h2,
 #colleges h2 {
 	color: rgba(81,135,143,0.3);
@@ -61,7 +61,7 @@ main section h2 {
 	right: 20px;
 	top: 20px;
 	}
-	
+
 #university dl.downloads {
 	padding-top: 90px;
 	padding-left: 35%;
@@ -93,7 +93,7 @@ dl.downloads dd a,
 dl.downloads dd:only-of-type a {
 	display: block;
 	width: auto;
-	
+
 	}
 #campuses dl.downloads {
 	xwidth: 396px;
@@ -111,7 +111,7 @@ dl.downloads dd:only-of-type a {
 	margin-left: 15px;
 	margin-bottom: 20px;
 	}
-	
+
 #colleges dl.downloads {
 	padding-top: 60px;
 	padding-left: 50px;
@@ -146,17 +146,17 @@ dl.downloads dd:only-of-type a {
 <article class="padless">
 
 	<div class="column one">
-		
+
 		<h2>university <small> <span>signatures</span> <span>shield</span> <span>social media badges</span></small></h2>
-		
+
 		<dl class="downloads">
 			<dd><a href="/wp-content/themes/brand/downloads/university/WSU-Univ-wide_Logos.zip" title="download university wide logos">university wide</a></dd>
 		</dl>
-		
+
 	</div>
-	
+
 	<br class="clearfix">
-	
+
 </article>
 
 </section>
@@ -166,8 +166,8 @@ dl.downloads dd:only-of-type a {
 <article class="padless">
 
 	<div class="column one">
-		
-		
+
+
 		<h2>campus</h2>
 		<dl id="downloads-campuses" class="downloads">
 			<dd><a href="/wp-content/themes/brand/downloads/campus/WSU-Spokane_Logos.zip" title="download Spokane logos">Spokane</a></dd>
@@ -177,12 +177,12 @@ dl.downloads dd:only-of-type a {
 		    <dd><a href="/wp-content/themes/brand/downloads/campus/WSU-Extension_Logos.zip">Extension</a></dd>
 		    <dd><a href="https://s3.wp.wsu.edu/uploads/sites/62/2014/02/WSU-Everett_Campus-Logo-Package.zip" title="download Everett logos">Everett</a></dd>
 		</dl>
-		
-		
+
+
 	</div>
-	
+
 	<br class="clearfix">
-	
+
 </article>
 
 </section>
@@ -202,7 +202,6 @@ dl.downloads dd:only-of-type a {
 		    <dd><a href="/wp-content/themes/brand/downloads/college/WSU-Arts-Sciences_Logos.zip" title="download Arts & Sciences logos">Arts & Sciences</a></dd>
 		    <dd><a href="/wp-content/themes/brand/downloads/college/WSU-Business_Logos.zip" title="download Business logos">Business</a></dd>
 		    <dd><a href="/wp-content/themes/brand/downloads/college/WSU-Education_Logos.zip" title="download Education logos">Education</a></dd>
-
 		    <dd><a href="/wp-content/themes/brand/downloads/college/WSU-Communication_Logos.zip" title="download Murrow logos">Murrow</a></dd>
 		    <dd><a href="/wp-content/themes/brand/downloads/college/WSU-Engr-Arch_Logos.zip" title="download Eng. & Arch. logos">Eng. & Arch.</a></dd>
 		    <dd><a href="/wp-content/themes/brand/downloads/college/WSU-Honors-College_Logos.zip" title="download Honors logos">Honors</a></dd>
@@ -210,9 +209,9 @@ dl.downloads dd:only-of-type a {
 		    <dd><a href="/wp-content/themes/brand/downloads/college/WSU-Pharmacy_Logos.zip" title="download Pharmacy logos">Pharmacy</a></dd>
 		    <dd><a href="/wp-content/themes/brand/downloads/college/WSU-VetMed_Logos.zip" title="download Veterinary Med. logos">Veterinary Med.</a></dd>
 		</dl>
-		
+
 	</div>
-	
+
 </article>
 
 </section>
@@ -222,15 +221,15 @@ dl.downloads dd:only-of-type a {
 <article class="padless">
 
 	<div class="column one">
-		
+
 		<h3 style="display: inline-block; padding-right: 30px;">stationery and business cards </h3>
 		<a class="brand-button" href="https://ucomm.wsu.edu/place-an-order/" title="order stationery and business cards">Order</a>
 
-		
+
 	</div>
-	
-	
-	
+
+
+
 </article>
 
 </section>
