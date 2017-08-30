@@ -202,6 +202,7 @@ dl.downloads dd:only-of-type a {
 		    <dd><a href="/wp-content/themes/brand/downloads/college/WSU-Arts-Sciences_Logos.zip" title="download Arts & Sciences logos">Arts & Sciences</a></dd>
 		    <dd><a href="/wp-content/themes/brand/downloads/college/WSU-Business_Logos.zip" title="download Business logos">Business</a></dd>
 		    <dd><a href="/wp-content/themes/brand/downloads/college/WSU-Education_Logos.zip" title="download Education logos">Education</a></dd>
+		    <dd><a href="https://s3.wp.wsu.edu/uploads/sites/62/2014/02/WSU-Medicine_Logos.zip" title="download Medicine logos">Medicine</a></dd>
 		    <dd><a href="/wp-content/themes/brand/downloads/college/WSU-Communication_Logos.zip" title="download Murrow logos">Murrow</a></dd>
 		    <dd><a href="/wp-content/themes/brand/downloads/college/WSU-Engr-Arch_Logos.zip" title="download Eng. & Arch. logos">Eng. & Arch.</a></dd>
 		    <dd><a href="/wp-content/themes/brand/downloads/college/WSU-Honors-College_Logos.zip" title="download Honors logos">Honors</a></dd>
