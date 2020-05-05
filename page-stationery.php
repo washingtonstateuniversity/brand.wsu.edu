@@ -41,7 +41,7 @@
 	</div>
 	<div class="column two">
 		<dl class="downloads" style="margin-top: 70px;">
-			<dd><a href="https://ucomm.wsu.edu/place-an-order/">order</a></dd>
+			<dd><a href="https://printing.wsu.edu/business-items/">order</a></dd>
 		</dl>
 	</div>
 
