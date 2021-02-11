@@ -543,7 +543,7 @@ $("dl.specs dd.hex").click(function(e) {
 				<dd class="orange-lightly-back value"><dl class="specs"><dd class="cmyk">0 7 14 5</dd> <dd class="rgb">237 220 204</dd> <dd class="hex">#eddccc</dd> <dd class="tone">15% 7572</dd></dl></dd>
 				<dd class="orange-lighter-back value"><dl class="specs"><dd class="cmyk">0 20 37 13</dd> <dd class="rgb">221 190 161</dd> <dd class="hex">#ddbea1</dd> <dd class="tone">40% 7572</dd></dl></dd>
 				<dd class="orange-light-back value"><dl class="specs"><dd class="cmyk">0 35 65 22</dd> <dd class="rgb">203 155 110</dd> <dd class="hex">#cb9b6e</dd> <dd class="tone">70% 7572</dd></dl></dd>
-				<dd class="orange-orange-back spot"><dl class="specs"><dd class="cmyk">0 50 93 32</dd> <dd class="rgb">182 114 51</dd> <dd class="hex">#b67233</dd> <dd class="tone">7572</dd></dl></dd>
+				<dd class="orange-orange-back spot"><dl class="specs"><dd class="cmyk">2 58 96 10</dd> <dd class="rgb">211 130 53</dd> <dd class="hex">#b67233</dd> <dd class="tone">7572</dd></dl></dd>
 				<dd class="orange-dark-back value"><dl class="specs"><dd class="cmyk">7 52 90 38</dd> <dd class="rgb">146 91 41</dd> <dd class="hex">#925b29</dd> <dd class="tone">7572+10%K</dd></dl></dd>
 				<dd class="orange-darker-back value"><dl class="specs"><dd class="cmyk">23 55 85 50</dd> <dd class="rgb">109 68 31</dd> <dd class="hex">#6d441f</dd> <dd class="tone">7572+30%K</dd></dl></dd>
 				<dd class="orange-darkest-back value"><dl class="specs"><dd class="cmyk">38 59 80 61</dd> <dd class="rgb">73 46 20</dd> <dd class="hex">#492e14</dd> <dd class="tone">7572+50%K</dd></dl></dd>
